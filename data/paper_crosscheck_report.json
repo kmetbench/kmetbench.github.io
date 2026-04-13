@@ -1,0 +1,1481 @@
+{
+  "paper_crosscheck": "pass",
+  "table_source": "/home/soyeon/MeteorQA/paper/ACL_2026/prompt/table_1_performance_short.tex",
+  "results_source": "/home/soyeon/MeteorQA/paper/ACL_2026/sec/5_results.tex",
+  "summary_source": "/home/soyeon/MeteorQA/results/public_summary/leaderboard_table_1_source.json",
+  "comparison_count": 17,
+  "mismatch_count": 0,
+  "comparisons": [
+    {
+      "model": "gemini-3-pro-preview (Thinking)",
+      "summary_model": "gemini-3-pro-preview (Thinking)",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 93.7,
+          "computed_value": 93.7,
+          "computed_raw": 93.74295377677565,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 18.01,
+          "computed_value": 18.01,
+          "computed_raw": 18.014388489208635,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 90.4,
+          "computed_value": 90.4,
+          "computed_raw": 90.41095890410958,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 94.6,
+          "computed_value": 94.6,
+          "computed_raw": 94.62174940898345,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": 75.6,
+          "computed_value": 75.6,
+          "computed_raw": 75.60975609756098,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 92.5,
+          "computed_value": 92.5,
+          "computed_raw": 92.49329758713137,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 97.9,
+          "computed_value": 97.9,
+          "computed_raw": 97.89156626506023,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 94.2,
+          "computed_value": 94.2,
+          "computed_raw": 94.15041782729804,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 92.8,
+          "computed_value": 92.8,
+          "computed_raw": 92.81914893617021,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 91.6,
+          "computed_value": 91.6,
+          "computed_raw": 91.61676646706587,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "gpt-5.2 (Thinking)",
+      "summary_model": "gpt-5.2 (Thinking)",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 87.8,
+          "computed_value": 87.8,
+          "computed_raw": 87.76775648252536,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 17.33,
+          "computed_value": 17.33,
+          "computed_raw": 17.33093525179856,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 80.8,
+          "computed_value": 80.8,
+          "computed_raw": 80.82191780821918,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 90.6,
+          "computed_value": 90.6,
+          "computed_raw": 90.60283687943263,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": 29.3,
+          "computed_value": 29.3,
+          "computed_raw": 29.268292682926827,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 86.3,
+          "computed_value": 86.3,
+          "computed_raw": 86.32707774798928,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 93.4,
+          "computed_value": 93.4,
+          "computed_raw": 93.37349397590361,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 88.0,
+          "computed_value": 88.0,
+          "computed_raw": 88.02228412256268,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 86.2,
+          "computed_value": 86.2,
+          "computed_raw": 86.17021276595744,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 85.3,
+          "computed_value": 85.3,
+          "computed_raw": 85.32934131736528,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "gpt-5.2",
+      "summary_model": "gpt-5.2",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 77.6,
+          "computed_value": 77.6,
+          "computed_raw": 77.62119503945884,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 17.39,
+          "computed_value": 17.39,
+          "computed_raw": 17.388489208633093,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 75.3,
+          "computed_value": 75.3,
+          "computed_raw": 75.34246575342466,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 79.0,
+          "computed_value": 79.0,
+          "computed_raw": 78.95981087470449,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": 50.0,
+          "computed_value": 50.0,
+          "computed_raw": 50.0,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 77.2,
+          "computed_value": 77.2,
+          "computed_raw": 77.21179624664879,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 81.3,
+          "computed_value": 81.3,
+          "computed_raw": 81.32530120481928,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 71.9,
+          "computed_value": 71.9,
+          "computed_raw": 71.86629526462396,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 81.4,
+          "computed_value": 81.4,
+          "computed_raw": 81.38297872340425,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 76.3,
+          "computed_value": 76.3,
+          "computed_raw": 76.34730538922156,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-VL-235B-A22B-Thinking",
+      "summary_model": "Qwen3-VL-235B-A22B-Thinking",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 84.4,
+          "computed_value": 84.4,
+          "computed_raw": 84.44193912063133,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 17.22,
+          "computed_value": 17.22,
+          "computed_raw": 17.223021582733814,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 72.6,
+          "computed_value": 72.6,
+          "computed_raw": 72.6027397260274,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 86.2,
+          "computed_value": 86.2,
+          "computed_raw": 86.17021276595744,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": 48.8,
+          "computed_value": 48.8,
+          "computed_raw": 48.78048780487805,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 81.5,
+          "computed_value": 81.5,
+          "computed_raw": 81.50134048257372,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 88.6,
+          "computed_value": 88.6,
+          "computed_raw": 88.55421686746988,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 87.2,
+          "computed_value": 87.2,
+          "computed_raw": 87.1866295264624,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 83.2,
+          "computed_value": 83.2,
+          "computed_raw": 83.24468085106383,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 82.0,
+          "computed_value": 82.0,
+          "computed_raw": 82.03592814371258,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-VL-32B-Thinking",
+      "summary_model": "Qwen3-VL-32B-Thinking",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 78.6,
+          "computed_value": 78.6,
+          "computed_raw": 78.57948139797068,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 16.19,
+          "computed_value": 16.19,
+          "computed_raw": 16.194244604316548,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 60.3,
+          "computed_value": 60.3,
+          "computed_raw": 60.273972602739725,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 79.9,
+          "computed_value": 79.9,
+          "computed_raw": 79.90543735224587,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": 51.2,
+          "computed_value": 51.2,
+          "computed_raw": 51.21951219512195,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 74.3,
+          "computed_value": 74.3,
+          "computed_raw": 74.26273458445041,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 85.2,
+          "computed_value": 85.2,
+          "computed_raw": 85.2409638554217,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 78.8,
+          "computed_value": 78.8,
+          "computed_raw": 78.8300835654596,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 78.7,
+          "computed_value": 78.7,
+          "computed_raw": 78.72340425531915,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 76.3,
+          "computed_value": 76.3,
+          "computed_raw": 76.34730538922156,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "command-a-reasoning-08-2025",
+      "summary_model": "command-a-reasoning-08-2025",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 77.8,
+          "computed_value": 77.8,
+          "computed_raw": 77.77777777777779,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 14.12,
+          "computed_value": 14.12,
+          "computed_raw": 14.115702479338843,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 74.6,
+          "computed_value": 74.6,
+          "computed_raw": 74.64788732394366,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 77.8,
+          "computed_value": 77.8,
+          "computed_raw": 77.77777777777779,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": null,
+          "computed_value": null,
+          "computed_raw": null,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 73.4,
+          "computed_value": 73.4,
+          "computed_raw": 73.35164835164835,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 85.2,
+          "computed_value": 85.2,
+          "computed_raw": 85.22012578616352,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 73.8,
+          "computed_value": 73.8,
+          "computed_raw": 73.82352941176471,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 78.8,
+          "computed_value": 78.8,
+          "computed_raw": 78.78787878787878,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 78.5,
+          "computed_value": 78.5,
+          "computed_raw": 78.50162866449512,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "gpt-oss-120b",
+      "summary_model": "gpt-oss-120b",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 77.3,
+          "computed_value": 77.3,
+          "computed_raw": 77.30496453900709,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 16.12,
+          "computed_value": 16.12,
+          "computed_raw": 16.123966942148762,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 62.0,
+          "computed_value": 62.0,
+          "computed_raw": 61.97183098591549,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 77.3,
+          "computed_value": 77.3,
+          "computed_raw": 77.30496453900709,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": null,
+          "computed_value": null,
+          "computed_raw": null,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 72.5,
+          "computed_value": 72.5,
+          "computed_raw": 72.52747252747253,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 85.8,
+          "computed_value": 85.8,
+          "computed_raw": 85.84905660377359,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 76.5,
+          "computed_value": 76.5,
+          "computed_raw": 76.47058823529412,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 77.4,
+          "computed_value": 77.4,
+          "computed_raw": 77.41046831955923,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 74.9,
+          "computed_value": 74.9,
+          "computed_raw": 74.9185667752443,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "summary_model": "Qwen3-30B-A3B-Thinking-2507",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 76.7,
+          "computed_value": 76.7,
+          "computed_raw": 76.71394799054374,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 15.76,
+          "computed_value": 15.76,
+          "computed_raw": 15.760330578512397,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 67.6,
+          "computed_value": 67.6,
+          "computed_raw": 67.6056338028169,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 76.7,
+          "computed_value": 76.7,
+          "computed_raw": 76.71394799054374,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": null,
+          "computed_value": null,
+          "computed_raw": null,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 75.5,
+          "computed_value": 75.5,
+          "computed_raw": 75.54945054945054,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 82.1,
+          "computed_value": 82.1,
+          "computed_raw": 82.0754716981132,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 75.6,
+          "computed_value": 75.6,
+          "computed_raw": 75.58823529411765,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 74.9,
+          "computed_value": 74.9,
+          "computed_raw": 74.93112947658402,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 75.9,
+          "computed_value": 75.9,
+          "computed_raw": 75.8957654723127,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "InternVL3.5-38B-Instruct",
+      "summary_model": "InternVL3.5-38B-Instruct",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 57.3,
+          "computed_value": 57.3,
+          "computed_raw": 57.271702367531006,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 11.38,
+          "computed_value": 11.38,
+          "computed_raw": 11.381294964028777,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 47.9,
+          "computed_value": 47.9,
+          "computed_raw": 47.94520547945205,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 58.1,
+          "computed_value": 58.1,
+          "computed_raw": 58.096926713947994,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": 40.2,
+          "computed_value": 40.2,
+          "computed_raw": 40.243902439024396,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 56.0,
+          "computed_value": 56.0,
+          "computed_raw": 56.03217158176944,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 64.8,
+          "computed_value": 64.8,
+          "computed_raw": 64.7590361445783,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 48.7,
+          "computed_value": 48.7,
+          "computed_raw": 48.74651810584958,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 61.4,
+          "computed_value": 61.4,
+          "computed_raw": 61.43617021276596,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 55.7,
+          "computed_value": 55.7,
+          "computed_raw": 55.688622754491014,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "Llama-3.2-90B-Vision-Instruct",
+      "summary_model": "Llama-3.2-90B-Vision-Instruct",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 56.9,
+          "computed_value": 56.9,
+          "computed_raw": 56.93348365276212,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 9.72,
+          "computed_value": 9.72,
+          "computed_raw": 9.719424460431656,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 52.1,
+          "computed_value": 52.1,
+          "computed_raw": 52.054794520547944,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 58.2,
+          "computed_value": 58.2,
+          "computed_raw": 58.21513002364066,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": 30.5,
+          "computed_value": 30.5,
+          "computed_raw": 30.48780487804878,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 57.1,
+          "computed_value": 57.1,
+          "computed_raw": 57.10455764075068,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 59.3,
+          "computed_value": 59.3,
+          "computed_raw": 59.337349397590366,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 52.4,
+          "computed_value": 52.4,
+          "computed_raw": 52.36768802228412,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 62.2,
+          "computed_value": 62.2,
+          "computed_raw": 62.23404255319149,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 53.3,
+          "computed_value": 53.3,
+          "computed_raw": 53.293413173652695,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "Phi-4",
+      "summary_model": "Phi-4",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 51.5,
+          "computed_value": 51.5,
+          "computed_raw": 51.477541371158395,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 11.75,
+          "computed_value": 11.75,
+          "computed_raw": 11.75206611570248,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 40.8,
+          "computed_value": 40.8,
+          "computed_raw": 40.845070422535215,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 51.5,
+          "computed_value": 51.5,
+          "computed_raw": 51.477541371158395,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": null,
+          "computed_value": null,
+          "computed_raw": null,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 52.5,
+          "computed_value": 52.5,
+          "computed_raw": 52.472527472527474,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 53.8,
+          "computed_value": 53.8,
+          "computed_raw": 53.77358490566038,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 50.0,
+          "computed_value": 50.0,
+          "computed_raw": 50.0,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 55.1,
+          "computed_value": 55.1,
+          "computed_raw": 55.09641873278237,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 45.3,
+          "computed_value": 45.3,
+          "computed_raw": 45.27687296416938,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "A.X-4.0",
+      "summary_model": "A.X-4.0",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 76.1,
+          "computed_value": 76.1,
+          "computed_raw": 76.12293144208037,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 15.46,
+          "computed_value": 15.46,
+          "computed_raw": 15.462809917355372,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 78.9,
+          "computed_value": 78.9,
+          "computed_raw": 78.87323943661971,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 76.1,
+          "computed_value": 76.1,
+          "computed_raw": 76.12293144208037,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": null,
+          "computed_value": null,
+          "computed_raw": null,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 76.6,
+          "computed_value": 76.6,
+          "computed_raw": 76.64835164835165,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 77.7,
+          "computed_value": 77.7,
+          "computed_raw": 77.67295597484278,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 68.2,
+          "computed_value": 68.2,
+          "computed_raw": 68.23529411764706,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 81.3,
+          "computed_value": 81.3,
+          "computed_raw": 81.26721763085399,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 76.5,
+          "computed_value": 76.5,
+          "computed_raw": 76.54723127035831,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "EXAONE-4.0-32B",
+      "summary_model": "EXAONE-4.0-32B",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 59.9,
+          "computed_value": 59.9,
+          "computed_raw": 59.86997635933806,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 13.57,
+          "computed_value": 13.57,
+          "computed_raw": 13.570247933884298,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 59.2,
+          "computed_value": 59.2,
+          "computed_raw": 59.154929577464785,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 59.9,
+          "computed_value": 59.9,
+          "computed_raw": 59.86997635933806,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": null,
+          "computed_value": null,
+          "computed_raw": null,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 58.2,
+          "computed_value": 58.2,
+          "computed_raw": 58.24175824175825,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 64.8,
+          "computed_value": 64.8,
+          "computed_raw": 64.77987421383648,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 52.4,
+          "computed_value": 52.4,
+          "computed_raw": 52.352941176470594,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 63.1,
+          "computed_value": 63.1,
+          "computed_raw": 63.08539944903582,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 61.2,
+          "computed_value": 61.2,
+          "computed_raw": 61.23778501628665,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "VARCO-Vision-2.0-14B",
+      "summary_model": "VARCO-Vision-2.0-14B",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 58.7,
+          "computed_value": 58.7,
+          "computed_raw": 58.680947012401354,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 11.24,
+          "computed_value": 11.24,
+          "computed_raw": 11.244604316546763,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 57.5,
+          "computed_value": 57.5,
+          "computed_raw": 57.534246575342465,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 59.5,
+          "computed_value": 59.5,
+          "computed_raw": 59.456264775413715,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": 42.7,
+          "computed_value": 42.7,
+          "computed_raw": 42.68292682926829,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 59.0,
+          "computed_value": 59.0,
+          "computed_raw": 58.98123324396782,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 62.3,
+          "computed_value": 62.3,
+          "computed_raw": 62.34939759036144,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 54.3,
+          "computed_value": 54.3,
+          "computed_raw": 54.317548746518106,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 61.7,
+          "computed_value": 61.7,
+          "computed_raw": 61.702127659574465,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 56.0,
+          "computed_value": 56.0,
+          "computed_raw": 55.98802395209581,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "A.X-4.0-Light",
+      "summary_model": "A.X-4.0-Light",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 55.7,
+          "computed_value": 55.7,
+          "computed_raw": 55.73286052009456,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 11.45,
+          "computed_value": 11.45,
+          "computed_raw": 11.454545454545455,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 60.6,
+          "computed_value": 60.6,
+          "computed_raw": 60.56338028169014,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 55.7,
+          "computed_value": 55.7,
+          "computed_raw": 55.73286052009456,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": null,
+          "computed_value": null,
+          "computed_raw": null,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 55.8,
+          "computed_value": 55.8,
+          "computed_raw": 55.769230769230774,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 54.4,
+          "computed_value": 54.4,
+          "computed_raw": 54.40251572327044,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 50.9,
+          "computed_value": 50.9,
+          "computed_raw": 50.882352941176464,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 61.4,
+          "computed_value": 61.4,
+          "computed_raw": 61.43250688705234,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 55.7,
+          "computed_value": 55.7,
+          "computed_raw": 55.700325732899024,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "A.X-4.0-VL-Light",
+      "summary_model": "A.X-4.0-VL-Light",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 52.5,
+          "computed_value": 52.5,
+          "computed_raw": 52.536640360766626,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 9.76,
+          "computed_value": 9.76,
+          "computed_raw": 9.755395683453237,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 54.8,
+          "computed_value": 54.8,
+          "computed_raw": 54.794520547945204,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 53.0,
+          "computed_value": 53.0,
+          "computed_raw": 53.01418439716312,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": 42.7,
+          "computed_value": 42.7,
+          "computed_raw": 42.68292682926829,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 51.5,
+          "computed_value": 51.5,
+          "computed_raw": 51.474530831099194,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 50.6,
+          "computed_value": 50.6,
+          "computed_raw": 50.602409638554214,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 50.1,
+          "computed_value": 50.1,
+          "computed_raw": 50.13927576601671,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 58.0,
+          "computed_value": 58.0,
+          "computed_raw": 57.97872340425532,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 52.1,
+          "computed_value": 52.1,
+          "computed_raw": 52.09580838323353,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "model": "HyperCLOVAX-SEED-Think-14B",
+      "summary_model": "HyperCLOVAX-SEED-Think-14B",
+      "metrics": [
+        {
+          "metric": "accuracy_pct",
+          "paper_value": 50.8,
+          "computed_value": 50.8,
+          "computed_raw": 50.82742316784869,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "reasoning_total",
+          "paper_value": 11.29,
+          "computed_value": 11.29,
+          "computed_raw": 11.289256198347108,
+          "digits": 2,
+          "match": true
+        },
+        {
+          "metric": "korean_pct",
+          "paper_value": 52.1,
+          "computed_value": 52.1,
+          "computed_raw": 52.112676056338024,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "text_pct",
+          "paper_value": 50.8,
+          "computed_value": 50.8,
+          "computed_raw": 50.82742316784869,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "multimodal_pct",
+          "paper_value": null,
+          "computed_value": null,
+          "computed_raw": null,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part1_pct",
+          "paper_value": 51.6,
+          "computed_value": 51.6,
+          "computed_raw": 51.64835164835166,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part2_pct",
+          "paper_value": 53.8,
+          "computed_value": 53.8,
+          "computed_raw": 53.77358490566038,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part3_pct",
+          "paper_value": 41.8,
+          "computed_value": 41.8,
+          "computed_raw": 41.76470588235294,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part4_pct",
+          "paper_value": 55.6,
+          "computed_value": 55.6,
+          "computed_raw": 55.64738292011019,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "metric": "part5_pct",
+          "paper_value": 51.1,
+          "computed_value": 51.1,
+          "computed_raw": 51.14006514657981,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    }
+  ],
+  "narrative_checks": [
+    {
+      "metric": "average_modality_gap_pct",
+      "paper_value": 18.55,
+      "computed_value": 18.55,
+      "match": true
+    }
+  ],
+  "mismatches": []
+}

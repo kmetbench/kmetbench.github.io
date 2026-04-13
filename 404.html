@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>K-MetBench Leaderboard</title>
+    <link rel="stylesheet" href="./site.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__inner">
+        <p class="eyebrow">K-MetBench</p>
+        <h1>Leaderboard</h1>
+        <p class="lede">
+          Public summary scores derived from the paper-aligned export pipeline.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="summary-band">
+        <div class="summary-band__inner">
+          <div class="summary-grid" id="summary-grid"></div>
+          <div class="verification" id="verification-status"></div>
+        </div>
+      </section>
+
+      <section class="controls-band">
+        <div class="controls-band__inner">
+          <label class="search">
+            <span>Search models</span>
+            <input id="search-input" type="search" placeholder="Model name" />
+          </label>
+        </div>
+      </section>
+
+      <section class="table-band">
+        <div class="table-band__inner">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Model</th>
+                  <th>Acc.</th>
+                  <th>Reas.</th>
+                  <th>Geo-Cult.</th>
+                  <th>Text</th>
+                  <th>Multi</th>
+                  <th>P1</th>
+                  <th>P2</th>
+                  <th>P3</th>
+                  <th>P4</th>
+                  <th>P5</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./site.js" defer></script>
+  </body>
+</html>

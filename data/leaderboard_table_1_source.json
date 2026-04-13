@@ -1,0 +1,1297 @@
+{
+  "source": {
+    "accuracy_benchmark": "explicit_advanced",
+    "reasoning_benchmark": "explicit_reasoning_evaluation"
+  },
+  "count": 56,
+  "rows": [
+    {
+      "model_key": "skt/A.X-4.0",
+      "display_model_name": "A.X-4.0",
+      "canonical_model_name": "ax40",
+      "accuracy_pct": 76.12293144208037,
+      "reasoning_total": 15.462809917355372,
+      "korean_pct": 78.87323943661971,
+      "text_pct": 76.12293144208037,
+      "multimodal_pct": null,
+      "part1_pct": 76.64835164835165,
+      "part2_pct": 77.67295597484278,
+      "part3_pct": 68.23529411764706,
+      "part4_pct": 81.26721763085399,
+      "part5_pct": 76.54723127035831,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/skt_A.X-4.0_seed42_20251022_011747.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/skt_A.X-4.0_20251020_044010.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-22T01:17:47",
+        "explicit_reasoning_evaluation": "2025-10-20T04:40:10"
+      }
+    },
+    {
+      "model_key": "skt/A.X-4.0-Light",
+      "display_model_name": "A.X-4.0-Light",
+      "canonical_model_name": "ax40light",
+      "accuracy_pct": 55.73286052009456,
+      "reasoning_total": 11.454545454545455,
+      "korean_pct": 60.56338028169014,
+      "text_pct": 55.73286052009456,
+      "multimodal_pct": null,
+      "part1_pct": 55.769230769230774,
+      "part2_pct": 54.40251572327044,
+      "part3_pct": 50.882352941176464,
+      "part4_pct": 61.43250688705234,
+      "part5_pct": 55.700325732899024,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/skt_A.X-4.0-Light_seed42_20251019_205728.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/skt_A.X-4.0-Light_20251020_173616.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-19T20:57:28",
+        "explicit_reasoning_evaluation": "2025-10-20T17:36:16"
+      }
+    },
+    {
+      "model_key": "skt/A.X-4.0-VL-Light",
+      "display_model_name": "A.X-4.0-VL-Light",
+      "canonical_model_name": "ax40vllight",
+      "accuracy_pct": 52.536640360766626,
+      "reasoning_total": 9.755395683453237,
+      "korean_pct": 54.794520547945204,
+      "text_pct": 53.01418439716312,
+      "multimodal_pct": 42.68292682926829,
+      "part1_pct": 51.474530831099194,
+      "part2_pct": 50.602409638554214,
+      "part3_pct": 50.13927576601671,
+      "part4_pct": 57.97872340425532,
+      "part5_pct": 52.09580838323353,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/skt_A.X-4.0-VL-Light_seed42_20251031_145054.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/skt_A.X-4.0-VL-Light_20251225_053113.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-31T14:50:54",
+        "explicit_reasoning_evaluation": "2025-12-25T05:31:13"
+      }
+    },
+    {
+      "model_key": "CohereLabs/c4ai-command-a-03-2025",
+      "display_model_name": "c4ai-command-a-03-2025",
+      "canonical_model_name": "c4aicommanda032025",
+      "accuracy_pct": 65.54373522458629,
+      "reasoning_total": 12.809917355371901,
+      "korean_pct": 66.19718309859155,
+      "text_pct": 65.54373522458629,
+      "multimodal_pct": null,
+      "part1_pct": 62.91208791208791,
+      "part2_pct": 66.35220125786164,
+      "part3_pct": 57.94117647058824,
+      "part4_pct": 71.900826446281,
+      "part5_pct": 68.72964169381108,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/CohereLabs_c4ai-command-a-03-2025_seed42_20251021_054734.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/CohereLabs_c4ai-command-a-03-2025_20251020_083442.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T05:47:34",
+        "explicit_reasoning_evaluation": "2025-10-20T08:34:42"
+      }
+    },
+    {
+      "model_key": "CohereLabs/command-a-reasoning-08-2025",
+      "display_model_name": "command-a-reasoning-08-2025",
+      "canonical_model_name": "commandareasoning082025",
+      "accuracy_pct": 77.77777777777779,
+      "reasoning_total": 14.115702479338843,
+      "korean_pct": 74.64788732394366,
+      "text_pct": 77.77777777777779,
+      "multimodal_pct": null,
+      "part1_pct": 73.35164835164835,
+      "part2_pct": 85.22012578616352,
+      "part3_pct": 73.82352941176471,
+      "part4_pct": 78.78787878787878,
+      "part5_pct": 78.50162866449512,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/CohereLabs_command-a-reasoning-08-2025_seed42_20251022_232237.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/CohereLabs_command-a-reasoning-08-2025_20251020_091429.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-22T23:22:37",
+        "explicit_reasoning_evaluation": "2025-10-20T09:14:29"
+      }
+    },
+    {
+      "model_key": "LGAI-EXAONE/EXAONE-4.0-1.2B",
+      "display_model_name": "EXAONE-4.0-1.2B",
+      "canonical_model_name": "exaone4012b",
+      "accuracy_pct": 37.35224586288416,
+      "reasoning_total": 7.603305785123967,
+      "korean_pct": 42.25352112676056,
+      "text_pct": 37.35224586288416,
+      "multimodal_pct": null,
+      "part1_pct": 37.637362637362635,
+      "part2_pct": 42.138364779874216,
+      "part3_pct": 35.0,
+      "part4_pct": 39.11845730027548,
+      "part5_pct": 32.57328990228013,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/LGAI-EXAONE_EXAONE-4.0-1.2B_seed42_20251019_201832.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/LGAI-EXAONE_EXAONE-4.0-1.2B_20251020_165839.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-19T20:18:32",
+        "explicit_reasoning_evaluation": "2025-10-20T16:58:39"
+      }
+    },
+    {
+      "model_key": "LGAI-EXAONE/EXAONE-4.0-32B",
+      "display_model_name": "EXAONE-4.0-32B",
+      "canonical_model_name": "exaone4032b",
+      "accuracy_pct": 59.86997635933806,
+      "reasoning_total": 13.570247933884298,
+      "korean_pct": 59.154929577464785,
+      "text_pct": 59.86997635933806,
+      "multimodal_pct": null,
+      "part1_pct": 58.24175824175825,
+      "part2_pct": 64.77987421383648,
+      "part3_pct": 52.352941176470594,
+      "part4_pct": 63.08539944903582,
+      "part5_pct": 61.23778501628665,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/LGAI-EXAONE_EXAONE-4.0-32B_seed42_20251019_202441.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/LGAI-EXAONE_EXAONE-4.0-32B_20251020_095553.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-19T20:24:41",
+        "explicit_reasoning_evaluation": "2025-10-20T09:55:53"
+      }
+    },
+    {
+      "model_key": "gemini-3-pro-preview_Thinking",
+      "display_model_name": "gemini-3-pro-preview (Thinking)",
+      "canonical_model_name": "gemini3propreviewthinking",
+      "accuracy_pct": 93.74295377677565,
+      "reasoning_total": 18.014388489208635,
+      "korean_pct": 90.41095890410958,
+      "text_pct": 94.62174940898345,
+      "multimodal_pct": 75.60975609756098,
+      "part1_pct": 92.49329758713137,
+      "part2_pct": 97.89156626506023,
+      "part3_pct": 94.15041782729804,
+      "part4_pct": 92.81914893617021,
+      "part5_pct": 91.61676646706587,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/gemini-3-pro-preview_Thinking_seed42_20251224_081820.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/gemini-3-pro-preview_Thinking_seed42_20251224_145356.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-24T08:18:20",
+        "explicit_reasoning_evaluation": "2025-12-24T14:53:56"
+      }
+    },
+    {
+      "model_key": "gpt-5.2",
+      "display_model_name": "gpt-5.2",
+      "canonical_model_name": "gpt52",
+      "accuracy_pct": 77.62119503945884,
+      "reasoning_total": 17.388489208633093,
+      "korean_pct": 75.34246575342466,
+      "text_pct": 78.95981087470449,
+      "multimodal_pct": 50.0,
+      "part1_pct": 77.21179624664879,
+      "part2_pct": 81.32530120481928,
+      "part3_pct": 71.86629526462396,
+      "part4_pct": 81.38297872340425,
+      "part5_pct": 76.34730538922156,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/gpt-5.2_seed42_20251224_125526.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/gpt-5.2_seed42_20251224_134800.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-24T12:55:26",
+        "explicit_reasoning_evaluation": "2025-12-24T13:48:00"
+      }
+    },
+    {
+      "model_key": "gpt-5.2_multimodal",
+      "display_model_name": "gpt-5.2 multimodal",
+      "canonical_model_name": "gpt52multimodal",
+      "accuracy_pct": 50.0,
+      "reasoning_total": 0.0,
+      "korean_pct": null,
+      "text_pct": 0.0,
+      "multimodal_pct": 50.0,
+      "part1_pct": 44.44444444444444,
+      "part2_pct": 71.42857142857143,
+      "part3_pct": 42.10526315789473,
+      "part4_pct": 53.84615384615385,
+      "part5_pct": 44.44444444444444,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/gpt-5.2_multimodal_seed42_20251229_000247.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/gpt-5.2_multimodal_20251229_001232.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-29T00:02:47",
+        "explicit_reasoning_evaluation": "2025-12-29T00:12:32"
+      }
+    },
+    {
+      "model_key": "gpt-5.2_Thinking",
+      "display_model_name": "gpt-5.2 (Thinking)",
+      "canonical_model_name": "gpt52thinking",
+      "accuracy_pct": 87.76775648252536,
+      "reasoning_total": 17.33093525179856,
+      "korean_pct": 80.82191780821918,
+      "text_pct": 90.60283687943263,
+      "multimodal_pct": 29.268292682926827,
+      "part1_pct": 86.32707774798928,
+      "part2_pct": 93.37349397590361,
+      "part3_pct": 88.02228412256268,
+      "part4_pct": 86.17021276595744,
+      "part5_pct": 85.32934131736528,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/gpt-5.2_Thinking_seed42_20251224_051450.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/gpt-5.2_Thinking_seed42_20251224_142135.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-24T05:14:50",
+        "explicit_reasoning_evaluation": "2025-12-24T14:21:35"
+      }
+    },
+    {
+      "model_key": "openai/gpt-oss-120b",
+      "display_model_name": "gpt-oss-120b",
+      "canonical_model_name": "gptoss120b",
+      "accuracy_pct": 77.30496453900709,
+      "reasoning_total": 16.123966942148762,
+      "korean_pct": 61.97183098591549,
+      "text_pct": 77.30496453900709,
+      "multimodal_pct": null,
+      "part1_pct": 72.52747252747253,
+      "part2_pct": 85.84905660377359,
+      "part3_pct": 76.47058823529412,
+      "part4_pct": 77.41046831955923,
+      "part5_pct": 74.9185667752443,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/openai_gpt-oss-120b_seed42_20251020_051132.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/openai_gpt-oss-120b_20251020_051959.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T05:11:32",
+        "explicit_reasoning_evaluation": "2025-10-20T05:19:59"
+      }
+    },
+    {
+      "model_key": "openai/gpt-oss-20b",
+      "display_model_name": "gpt-oss-20b",
+      "canonical_model_name": "gptoss20b",
+      "accuracy_pct": 71.45390070921985,
+      "reasoning_total": 13.545454545454545,
+      "korean_pct": 60.56338028169014,
+      "text_pct": 71.45390070921985,
+      "multimodal_pct": null,
+      "part1_pct": 65.65934065934066,
+      "part2_pct": 82.38993710691824,
+      "part3_pct": 71.76470588235294,
+      "part4_pct": 72.1763085399449,
+      "part5_pct": 65.79804560260585,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/openai_gpt-oss-20b_seed42_20251020_230740.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/openai_gpt-oss-20b_20251020_135010.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T23:07:40",
+        "explicit_reasoning_evaluation": "2025-10-20T13:50:10"
+      }
+    },
+    {
+      "model_key": "naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-0.5B",
+      "display_model_name": "HyperCLOVAX-SEED-Text-Instruct-0.5B",
+      "canonical_model_name": "hyperclovaxseedtextinstruct05b",
+      "accuracy_pct": 13.17966903073286,
+      "reasoning_total": 4.31404958677686,
+      "korean_pct": 14.084507042253522,
+      "text_pct": 13.17966903073286,
+      "multimodal_pct": null,
+      "part1_pct": 17.032967032967033,
+      "part2_pct": 8.49056603773585,
+      "part3_pct": 10.588235294117647,
+      "part4_pct": 13.498622589531681,
+      "part5_pct": 15.960912052117262,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-0.5B_seed42_20251021_075212.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-0.5B_20251228_205238.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T07:52:12",
+        "explicit_reasoning_evaluation": "2025-12-28T20:52:38"
+      }
+    },
+    {
+      "model_key": "naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-1.5B",
+      "display_model_name": "HyperCLOVAX-SEED-Text-Instruct-1.5B",
+      "canonical_model_name": "hyperclovaxseedtextinstruct15b",
+      "accuracy_pct": 30.61465721040189,
+      "reasoning_total": 6.8429752066115705,
+      "korean_pct": 36.61971830985916,
+      "text_pct": 30.61465721040189,
+      "multimodal_pct": null,
+      "part1_pct": 38.46153846153847,
+      "part2_pct": 31.446540880503143,
+      "part3_pct": 24.705882352941178,
+      "part4_pct": 30.57851239669421,
+      "part5_pct": 27.035830618892508,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-1.5B_seed42_20251209_093123.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-1.5B_20251228_213036.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-09T09:31:23",
+        "explicit_reasoning_evaluation": "2025-12-28T21:30:36"
+      }
+    },
+    {
+      "model_key": "naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+      "display_model_name": "HyperCLOVAX-SEED-Think-14B",
+      "canonical_model_name": "hyperclovaxseedthink14b",
+      "accuracy_pct": 50.82742316784869,
+      "reasoning_total": 11.289256198347108,
+      "korean_pct": 52.112676056338024,
+      "text_pct": 50.82742316784869,
+      "multimodal_pct": null,
+      "part1_pct": 51.64835164835166,
+      "part2_pct": 53.77358490566038,
+      "part3_pct": 41.76470588235294,
+      "part4_pct": 55.64738292011019,
+      "part5_pct": 51.14006514657981,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Think-14B_seed42_20251209_235359.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Think-14B_20251228_202928.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-09T23:53:59",
+        "explicit_reasoning_evaluation": "2025-12-28T20:29:28"
+      }
+    },
+    {
+      "model_key": "naver-hyperclovax/HyperCLOVAX-SEED-Vision-Instruct-3B",
+      "display_model_name": "HyperCLOVAX-SEED-Vision-Instruct-3B",
+      "canonical_model_name": "hyperclovaxseedvisioninstruct3b",
+      "accuracy_pct": 31.961668545659528,
+      "reasoning_total": 7.561151079136691,
+      "korean_pct": 35.61643835616438,
+      "text_pct": 32.38770685579196,
+      "multimodal_pct": 23.170731707317074,
+      "part1_pct": 37.26541554959786,
+      "part2_pct": 25.903614457831324,
+      "part3_pct": 26.46239554317549,
+      "part4_pct": 36.702127659574465,
+      "part5_pct": 32.634730538922156,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Vision-Instruct-3B_seed42_20251021_052359.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Vision-Instruct-3B_20251020_143521.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T05:23:59",
+        "explicit_reasoning_evaluation": "2025-10-20T14:35:21"
+      }
+    },
+    {
+      "model_key": "OpenGVLab/InternVL3_5-14B-Instruct",
+      "display_model_name": "InternVL3.5-14B-Instruct",
+      "canonical_model_name": "internvl3514binstruct",
+      "accuracy_pct": 47.91431792559188,
+      "reasoning_total": 9.453237410071942,
+      "korean_pct": 45.20547945205479,
+      "text_pct": 48.40425531914894,
+      "multimodal_pct": 37.80487804878049,
+      "part1_pct": 44.50402144772118,
+      "part2_pct": 53.6144578313253,
+      "part3_pct": 44.01114206128134,
+      "part4_pct": 50.26595744680851,
+      "part5_pct": 47.604790419161674,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-14B-Instruct_seed42_20251020_220138.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-14B-Instruct_20251020_122936.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T22:01:38",
+        "explicit_reasoning_evaluation": "2025-10-20T12:29:36"
+      }
+    },
+    {
+      "model_key": "OpenGVLab/InternVL3_5-1B-Instruct",
+      "display_model_name": "InternVL3.5-1B-Instruct",
+      "canonical_model_name": "internvl351binstruct",
+      "accuracy_pct": 23.844419391206316,
+      "reasoning_total": 4.057553956834532,
+      "korean_pct": 28.767123287671232,
+      "text_pct": 24.349881796690305,
+      "multimodal_pct": 13.414634146341465,
+      "part1_pct": 26.005361930294907,
+      "part2_pct": 23.795180722891565,
+      "part3_pct": 24.233983286908078,
+      "part4_pct": 23.404255319148938,
+      "part5_pct": 21.55688622754491,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-1B-Instruct_seed42_20251020_024229.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-1B-Instruct_20251229_112652.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T02:42:29",
+        "explicit_reasoning_evaluation": "2025-12-29T11:26:52"
+      }
+    },
+    {
+      "model_key": "OpenGVLab/InternVL3_5-2B-Instruct",
+      "display_model_name": "InternVL3.5-2B-Instruct",
+      "canonical_model_name": "internvl352binstruct",
+      "accuracy_pct": 31.003382187147686,
+      "reasoning_total": 4.345323741007194,
+      "korean_pct": 24.65753424657534,
+      "text_pct": 31.20567375886525,
+      "multimodal_pct": 26.82926829268293,
+      "part1_pct": 33.78016085790885,
+      "part2_pct": 30.72289156626506,
+      "part3_pct": 32.31197771587744,
+      "part4_pct": 29.521276595744684,
+      "part5_pct": 28.443113772455092,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-2B-Instruct_seed42_20251020_030854.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-2B-Instruct_20251229_105534.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T03:08:54",
+        "explicit_reasoning_evaluation": "2025-12-29T10:55:34"
+      }
+    },
+    {
+      "model_key": "OpenGVLab/InternVL3_5-38B-Instruct",
+      "display_model_name": "InternVL3.5-38B-Instruct",
+      "canonical_model_name": "internvl3538binstruct",
+      "accuracy_pct": 57.271702367531006,
+      "reasoning_total": 11.381294964028777,
+      "korean_pct": 47.94520547945205,
+      "text_pct": 58.096926713947994,
+      "multimodal_pct": 40.243902439024396,
+      "part1_pct": 56.03217158176944,
+      "part2_pct": 64.7590361445783,
+      "part3_pct": 48.74651810584958,
+      "part4_pct": 61.43617021276596,
+      "part5_pct": 55.688622754491014,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-38B-Instruct_seed42_20251021_053243.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-38B-Instruct_20251020_060939.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T05:32:43",
+        "explicit_reasoning_evaluation": "2025-10-20T06:09:39"
+      }
+    },
+    {
+      "model_key": "OpenGVLab/InternVL3_5-4B-Instruct",
+      "display_model_name": "InternVL3.5-4B-Instruct",
+      "canonical_model_name": "internvl354binstruct",
+      "accuracy_pct": 41.48816234498309,
+      "reasoning_total": 4.805755395683454,
+      "korean_pct": 24.65753424657534,
+      "text_pct": 42.08037825059102,
+      "multimodal_pct": 29.268292682926827,
+      "part1_pct": 44.50402144772118,
+      "part2_pct": 43.97590361445783,
+      "part3_pct": 37.88300835654596,
+      "part4_pct": 43.88297872340425,
+      "part5_pct": 36.82634730538922,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-4B-Instruct_seed42_20251020_031612.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-4B-Instruct_20251229_001228.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T03:16:12",
+        "explicit_reasoning_evaluation": "2025-12-29T00:12:28"
+      }
+    },
+    {
+      "model_key": "OpenGVLab/InternVL3_5-8B-Instruct",
+      "display_model_name": "InternVL3.5-8B-Instruct",
+      "canonical_model_name": "internvl358binstruct",
+      "accuracy_pct": 46.11048478015783,
+      "reasoning_total": 7.071942446043166,
+      "korean_pct": 35.61643835616438,
+      "text_pct": 46.74940898345154,
+      "multimodal_pct": 32.926829268292686,
+      "part1_pct": 45.30831099195711,
+      "part2_pct": 48.795180722891565,
+      "part3_pct": 42.061281337047355,
+      "part4_pct": 52.3936170212766,
+      "part5_pct": 41.61676646706587,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-8B-Instruct_seed42_20251020_041049.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-8B-Instruct_20251020_161547.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T04:10:49",
+        "explicit_reasoning_evaluation": "2025-10-20T16:15:47"
+      }
+    },
+    {
+      "model_key": "meta-llama/Llama-3.1-70B-Instruct",
+      "display_model_name": "Llama-3.1-70B-Instruct",
+      "canonical_model_name": "llama3170binstruct",
+      "accuracy_pct": 59.9290780141844,
+      "reasoning_total": 11.15702479338843,
+      "korean_pct": 57.74647887323944,
+      "text_pct": 59.9290780141844,
+      "multimodal_pct": null,
+      "part1_pct": 59.34065934065934,
+      "part2_pct": 61.63522012578616,
+      "part3_pct": 53.23529411764706,
+      "part4_pct": 65.84022038567493,
+      "part5_pct": 59.28338762214984,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.1-70B-Instruct_seed42_20251228_210752.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.1-70B-Instruct_20251229_161627.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-28T21:07:52",
+        "explicit_reasoning_evaluation": "2025-12-29T16:16:27"
+      }
+    },
+    {
+      "model_key": "meta-llama/Llama-3.1-8B-Instruct",
+      "display_model_name": "Llama-3.1-8B-Instruct",
+      "canonical_model_name": "llama318binstruct",
+      "accuracy_pct": 41.843971631205676,
+      "reasoning_total": 7.628099173553719,
+      "korean_pct": 40.845070422535215,
+      "text_pct": 41.843971631205676,
+      "multimodal_pct": null,
+      "part1_pct": 44.230769230769226,
+      "part2_pct": 38.05031446540881,
+      "part3_pct": 40.0,
+      "part4_pct": 44.352617079889804,
+      "part5_pct": 42.01954397394137,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.1-8B-Instruct_seed42_20251021_041637.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.1-8B-Instruct_20251020_200856.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T04:16:37",
+        "explicit_reasoning_evaluation": "2025-10-20T20:08:56"
+      }
+    },
+    {
+      "model_key": "meta-llama/Llama-3.2-1B-Instruct",
+      "display_model_name": "Llama-3.2-1B-Instruct",
+      "canonical_model_name": "llama321binstruct",
+      "accuracy_pct": 3.546099290780142,
+      "reasoning_total": 4.0,
+      "korean_pct": 4.225352112676056,
+      "text_pct": 3.546099290780142,
+      "multimodal_pct": null,
+      "part1_pct": 3.021978021978022,
+      "part2_pct": 5.345911949685535,
+      "part3_pct": 2.6470588235294117,
+      "part4_pct": 3.8567493112947657,
+      "part5_pct": 2.9315960912052117,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.2-1B-Instruct_seed42_20251209_223841.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.2-1B-Instruct_20251229_115133.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-09T22:38:41",
+        "explicit_reasoning_evaluation": "2025-12-29T11:51:33"
+      }
+    },
+    {
+      "model_key": "meta-llama/Llama-3.2-3B-Instruct",
+      "display_model_name": "Llama-3.2-3B-Instruct",
+      "canonical_model_name": "llama323binstruct",
+      "accuracy_pct": 33.80614657210402,
+      "reasoning_total": 5.082644628099174,
+      "korean_pct": 30.985915492957744,
+      "text_pct": 33.80614657210402,
+      "multimodal_pct": null,
+      "part1_pct": 36.26373626373626,
+      "part2_pct": 32.70440251572327,
+      "part3_pct": 34.705882352941174,
+      "part4_pct": 33.88429752066116,
+      "part5_pct": 30.944625407166125,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.2-3B-Instruct_seed42_20251019_203217.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.2-3B-Instruct_20251229_122409.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-19T20:32:17",
+        "explicit_reasoning_evaluation": "2025-12-29T12:24:09"
+      }
+    },
+    {
+      "model_key": "meta-llama/Llama-3.2-90B-Vision-Instruct",
+      "display_model_name": "Llama-3.2-90B-Vision-Instruct",
+      "canonical_model_name": "llama3290bvisioninstruct",
+      "accuracy_pct": 56.93348365276212,
+      "reasoning_total": 9.719424460431656,
+      "korean_pct": 52.054794520547944,
+      "text_pct": 58.21513002364066,
+      "multimodal_pct": 30.48780487804878,
+      "part1_pct": 57.10455764075068,
+      "part2_pct": 59.337349397590366,
+      "part3_pct": 52.36768802228412,
+      "part4_pct": 62.23404255319149,
+      "part5_pct": 53.293413173652695,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.2-90B-Vision-Instruct_seed42_20251030_111002.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.2-90B-Vision-Instruct_20251229_130745.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-30T11:10:02",
+        "explicit_reasoning_evaluation": "2025-12-29T13:07:45"
+      }
+    },
+    {
+      "model_key": "microsoft/Phi-4",
+      "display_model_name": "Phi-4",
+      "canonical_model_name": "phi4",
+      "accuracy_pct": 51.477541371158395,
+      "reasoning_total": 11.75206611570248,
+      "korean_pct": 40.845070422535215,
+      "text_pct": 51.477541371158395,
+      "multimodal_pct": null,
+      "part1_pct": 52.472527472527474,
+      "part2_pct": 53.77358490566038,
+      "part3_pct": 50.0,
+      "part4_pct": 55.09641873278237,
+      "part5_pct": 45.27687296416938,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/microsoft_Phi-4_seed42_20251209_095058.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/microsoft_Phi-4_20251020_181631.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-09T09:50:58",
+        "explicit_reasoning_evaluation": "2025-10-20T18:16:31"
+      }
+    },
+    {
+      "model_key": "microsoft/Phi-4-mini-instruct",
+      "display_model_name": "Phi-4-mini-instruct",
+      "canonical_model_name": "phi4miniinstruct",
+      "accuracy_pct": 30.437352245862886,
+      "reasoning_total": 5.818181818181818,
+      "korean_pct": 21.12676056338028,
+      "text_pct": 30.437352245862886,
+      "multimodal_pct": null,
+      "part1_pct": 31.59340659340659,
+      "part2_pct": 33.0188679245283,
+      "part3_pct": 30.294117647058822,
+      "part4_pct": 29.476584022038566,
+      "part5_pct": 27.68729641693811,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/microsoft_Phi-4-mini-instruct_seed42_20251019_211213.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/microsoft_Phi-4-mini-instruct_20251229_234308.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-19T21:12:13",
+        "explicit_reasoning_evaluation": "2025-12-29T23:43:08"
+      }
+    },
+    {
+      "model_key": "microsoft/Phi-4-mini-reasoning",
+      "display_model_name": "Phi-4-mini-reasoning",
+      "canonical_model_name": "phi4minireasoning",
+      "accuracy_pct": 12.588652482269502,
+      "reasoning_total": 4.024793388429752,
+      "korean_pct": 9.859154929577464,
+      "text_pct": 12.588652482269502,
+      "multimodal_pct": null,
+      "part1_pct": 14.285714285714285,
+      "part2_pct": 10.69182389937107,
+      "part3_pct": 10.882352941176471,
+      "part4_pct": 12.672176308539946,
+      "part5_pct": 14.332247557003258,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/microsoft_Phi-4-mini-reasoning_seed42_20251224_194900.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/microsoft_Phi-4-mini-reasoning_20251229_230516.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-24T19:49:00",
+        "explicit_reasoning_evaluation": "2025-12-29T23:05:16"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen2.5-VL-32B-Instruct",
+      "display_model_name": "Qwen2.5-VL-32B-Instruct",
+      "canonical_model_name": "qwen25vl32binstruct",
+      "accuracy_pct": 60.09019165727171,
+      "reasoning_total": 10.985611510791367,
+      "korean_pct": 56.16438356164384,
+      "text_pct": 61.111111111111114,
+      "multimodal_pct": 39.02439024390244,
+      "part1_pct": 60.32171581769437,
+      "part2_pct": 59.93975903614458,
+      "part3_pct": 56.824512534818936,
+      "part4_pct": 62.76595744680851,
+      "part5_pct": 60.47904191616767,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-32B-Instruct_seed42_20251228_205927.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-32B-Instruct_20251228_223446.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-28T20:59:27",
+        "explicit_reasoning_evaluation": "2025-12-28T22:34:46"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen2.5-VL-3B-Instruct",
+      "display_model_name": "Qwen2.5-VL-3B-Instruct",
+      "canonical_model_name": "qwen25vl3binstruct",
+      "accuracy_pct": 40.92446448703495,
+      "reasoning_total": 4.87603305785124,
+      "korean_pct": 36.986301369863014,
+      "text_pct": 41.43026004728132,
+      "multimodal_pct": 30.48780487804878,
+      "part1_pct": 41.55495978552279,
+      "part2_pct": 38.55421686746988,
+      "part3_pct": 40.11142061281337,
+      "part4_pct": 43.88297872340425,
+      "part5_pct": 40.119760479041915,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-3B-Instruct_seed42_20251223_184301.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-3B-Instruct_20251225_085638.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-23T18:43:01",
+        "explicit_reasoning_evaluation": "2025-12-25T08:56:38"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen2.5-VL-72B-Instruct",
+      "display_model_name": "Qwen2.5-VL-72B-Instruct",
+      "canonical_model_name": "qwen25vl72binstruct",
+      "accuracy_pct": 67.13641488162345,
+      "reasoning_total": 12.942446043165468,
+      "korean_pct": 63.013698630136986,
+      "text_pct": 68.3806146572104,
+      "multimodal_pct": 41.46341463414634,
+      "part1_pct": 64.343163538874,
+      "part2_pct": 70.78313253012048,
+      "part3_pct": 62.67409470752089,
+      "part4_pct": 69.68085106382979,
+      "part5_pct": 68.562874251497,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-72B-Instruct_seed42_20251223_190008.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-72B-Instruct_20251225_102533.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-23T19:00:08",
+        "explicit_reasoning_evaluation": "2025-12-25T10:25:33"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "display_model_name": "Qwen2.5-VL-7B-Instruct",
+      "canonical_model_name": "qwen25vl7binstruct",
+      "accuracy_pct": 46.05411499436302,
+      "reasoning_total": 7.079136690647482,
+      "korean_pct": 36.986301369863014,
+      "text_pct": 46.63120567375886,
+      "multimodal_pct": 34.146341463414636,
+      "part1_pct": 49.32975871313673,
+      "part2_pct": 43.07228915662651,
+      "part3_pct": 42.89693593314763,
+      "part4_pct": 51.86170212765957,
+      "part5_pct": 42.21556886227545,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-7B-Instruct_seed42_20251223_183939.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-7B-Instruct_20251225_094217.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-23T18:39:39",
+        "explicit_reasoning_evaluation": "2025-12-25T09:42:17"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-0.6B",
+      "display_model_name": "Qwen3-0.6B",
+      "canonical_model_name": "qwen306b",
+      "accuracy_pct": 32.15130023640662,
+      "reasoning_total": 4.603305785123967,
+      "korean_pct": 23.943661971830984,
+      "text_pct": 32.15130023640662,
+      "multimodal_pct": null,
+      "part1_pct": 30.21978021978022,
+      "part2_pct": 40.88050314465409,
+      "part3_pct": 32.05882352941177,
+      "part4_pct": 31.955922865013775,
+      "part5_pct": 25.732899022801302,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-0.6B_seed42_20251020_224353.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-0.6B_20251020_192833.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T22:43:53",
+        "explicit_reasoning_evaluation": "2025-10-20T19:28:33"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-14B",
+      "display_model_name": "Qwen3-14B",
+      "canonical_model_name": "qwen314b",
+      "accuracy_pct": 73.69976359338062,
+      "reasoning_total": 15.24793388429752,
+      "korean_pct": 60.56338028169014,
+      "text_pct": 73.69976359338062,
+      "multimodal_pct": null,
+      "part1_pct": 70.87912087912088,
+      "part2_pct": 84.27672955974843,
+      "part3_pct": 72.35294117647058,
+      "part4_pct": 70.24793388429752,
+      "part5_pct": 71.66123778501628,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-14B_seed42_20251021_110423.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-14B_20251229_142516.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T11:04:23",
+        "explicit_reasoning_evaluation": "2025-12-29T14:25:16"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-1.7B",
+      "display_model_name": "Qwen3-1.7B",
+      "canonical_model_name": "qwen317b",
+      "accuracy_pct": 46.808510638297875,
+      "reasoning_total": 7.371900826446281,
+      "korean_pct": 35.2112676056338,
+      "text_pct": 46.808510638297875,
+      "multimodal_pct": null,
+      "part1_pct": 45.05494505494506,
+      "part2_pct": 57.23270440251572,
+      "part3_pct": 47.35294117647059,
+      "part4_pct": 42.42424242424242,
+      "part5_pct": 42.671009771986974,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-1.7B_seed42_20251021_025931.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-1.7B_20251229_134829.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T02:59:31",
+        "explicit_reasoning_evaluation": "2025-12-29T13:48:29"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "display_model_name": "Qwen3-30B-A3B-Instruct-2507",
+      "canonical_model_name": "qwen330ba3binstruct2507",
+      "accuracy_pct": 64.65721040189125,
+      "reasoning_total": 14.685950413223141,
+      "korean_pct": 60.56338028169014,
+      "text_pct": 64.65721040189125,
+      "multimodal_pct": null,
+      "part1_pct": 65.10989010989012,
+      "part2_pct": 71.38364779874213,
+      "part3_pct": 57.647058823529406,
+      "part4_pct": 65.56473829201101,
+      "part5_pct": 63.84364820846905,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-30B-A3B-Instruct-2507_seed42_20251019_130441.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-30B-A3B-Instruct-2507_20251230_033953.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-19T13:04:41",
+        "explicit_reasoning_evaluation": "2025-12-30T03:39:53"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+      "display_model_name": "Qwen3-30B-A3B-Thinking-2507",
+      "canonical_model_name": "qwen330ba3bthinking2507",
+      "accuracy_pct": 76.71394799054374,
+      "reasoning_total": 15.760330578512397,
+      "korean_pct": 67.6056338028169,
+      "text_pct": 76.71394799054374,
+      "multimodal_pct": null,
+      "part1_pct": 75.54945054945054,
+      "part2_pct": 82.0754716981132,
+      "part3_pct": 75.58823529411765,
+      "part4_pct": 74.93112947658402,
+      "part5_pct": 75.8957654723127,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-30B-A3B-Thinking-2507_seed42_20251209_143832.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-30B-A3B-Thinking-2507_20251230_041758.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-09T14:38:32",
+        "explicit_reasoning_evaluation": "2025-12-30T04:17:58"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-32B",
+      "display_model_name": "Qwen3-32B",
+      "canonical_model_name": "qwen332b",
+      "accuracy_pct": 47.45862884160756,
+      "reasoning_total": 14.570247933884298,
+      "korean_pct": 28.169014084507044,
+      "text_pct": 47.45862884160756,
+      "multimodal_pct": null,
+      "part1_pct": 48.62637362637363,
+      "part2_pct": 61.32075471698113,
+      "part3_pct": 47.35294117647059,
+      "part4_pct": 39.66942148760331,
+      "part5_pct": 41.042345276872965,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-32B_seed42_20251019_182620.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-32B_20251020_131126.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-19T18:26:20",
+        "explicit_reasoning_evaluation": "2025-10-20T13:11:26"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-4B-Instruct-2507",
+      "display_model_name": "Qwen3-4B-Instruct-2507",
+      "canonical_model_name": "qwen34binstruct2507",
+      "accuracy_pct": 51.536643026004725,
+      "reasoning_total": 12.322314049586776,
+      "korean_pct": 45.07042253521127,
+      "text_pct": 51.536643026004725,
+      "multimodal_pct": null,
+      "part1_pct": 53.84615384615385,
+      "part2_pct": 52.51572327044025,
+      "part3_pct": 47.647058823529406,
+      "part4_pct": 52.61707988980716,
+      "part5_pct": 50.814332247557005,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-4B-Instruct-2507_seed42_20251019_201916.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-4B-Instruct-2507_20251229_215959.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-19T20:19:16",
+        "explicit_reasoning_evaluation": "2025-12-29T21:59:59"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-4B-Thinking-2507",
+      "display_model_name": "Qwen3-4B-Thinking-2507",
+      "canonical_model_name": "qwen34bthinking2507",
+      "accuracy_pct": 67.84869976359337,
+      "reasoning_total": 13.28099173553719,
+      "korean_pct": 60.56338028169014,
+      "text_pct": 67.84869976359337,
+      "multimodal_pct": null,
+      "part1_pct": 63.46153846153846,
+      "part2_pct": 80.81761006289308,
+      "part3_pct": 64.11764705882354,
+      "part4_pct": 66.66666666666666,
+      "part5_pct": 65.14657980456026,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-4B-Thinking-2507_seed42_20251019_191928.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-4B-Thinking-2507_20251229_224154.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-19T19:19:28",
+        "explicit_reasoning_evaluation": "2025-12-29T22:41:54"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-8B",
+      "display_model_name": "Qwen3-8B",
+      "canonical_model_name": "qwen38b",
+      "accuracy_pct": 70.09456264775413,
+      "reasoning_total": 13.314049586776859,
+      "korean_pct": 49.29577464788733,
+      "text_pct": 70.09456264775413,
+      "multimodal_pct": null,
+      "part1_pct": 69.5054945054945,
+      "part2_pct": 80.18867924528303,
+      "part3_pct": 69.11764705882352,
+      "part4_pct": 65.56473829201101,
+      "part5_pct": 66.77524429967427,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-8B_seed42_20251021_160905.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-8B_20251229_150416.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T16:09:05",
+        "explicit_reasoning_evaluation": "2025-12-29T15:04:16"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+      "display_model_name": "Qwen3-VL-235B-A22B-Instruct",
+      "canonical_model_name": "qwen3vl235ba22binstruct",
+      "accuracy_pct": 72.43517474633596,
+      "reasoning_total": 15.39568345323741,
+      "korean_pct": 73.97260273972603,
+      "text_pct": 73.75886524822694,
+      "multimodal_pct": 45.1219512195122,
+      "part1_pct": 72.92225201072387,
+      "part2_pct": 78.6144578313253,
+      "part3_pct": 64.34540389972145,
+      "part4_pct": 74.46808510638297,
+      "part5_pct": 72.15568862275448,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-235B-A22B-Instruct_seed42_20251020_034013.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-235B-A22B-Instruct_20251020_075453.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T03:40:13",
+        "explicit_reasoning_evaluation": "2025-10-20T07:54:53"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+      "display_model_name": "Qwen3-VL-235B-A22B-Thinking",
+      "canonical_model_name": "qwen3vl235ba22bthinking",
+      "accuracy_pct": 84.44193912063133,
+      "reasoning_total": 17.223021582733814,
+      "korean_pct": 72.6027397260274,
+      "text_pct": 86.17021276595744,
+      "multimodal_pct": 48.78048780487805,
+      "part1_pct": 81.50134048257372,
+      "part2_pct": 88.55421686746988,
+      "part3_pct": 87.1866295264624,
+      "part4_pct": 83.24468085106383,
+      "part5_pct": 82.03592814371258,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-235B-A22B-Thinking_seed42_20251020_170550.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-235B-A22B-Thinking_20251020_070244.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T17:05:50",
+        "explicit_reasoning_evaluation": "2025-10-20T07:02:44"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+      "display_model_name": "Qwen3-VL-30B-A3B-Instruct",
+      "canonical_model_name": "qwen3vl30ba3binstruct",
+      "accuracy_pct": 62.232243517474636,
+      "reasoning_total": 13.366906474820144,
+      "korean_pct": 57.534246575342465,
+      "text_pct": 63.23877068557919,
+      "multimodal_pct": 41.46341463414634,
+      "part1_pct": 63.27077747989276,
+      "part2_pct": 68.37349397590361,
+      "part3_pct": 54.317548746518106,
+      "part4_pct": 64.36170212765957,
+      "part5_pct": 61.07784431137725,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-30B-A3B-Instruct_seed42_20251020_195143.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-30B-A3B-Instruct_20251020_223133.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T19:51:43",
+        "explicit_reasoning_evaluation": "2025-10-20T22:31:33"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+      "display_model_name": "Qwen3-VL-30B-A3B-Thinking",
+      "canonical_model_name": "qwen3vl30ba3bthinking",
+      "accuracy_pct": 74.85907553551297,
+      "reasoning_total": 15.158273381294965,
+      "korean_pct": 68.4931506849315,
+      "text_pct": 76.30023640661938,
+      "multimodal_pct": 45.1219512195122,
+      "part1_pct": 70.50938337801608,
+      "part2_pct": 77.40963855421687,
+      "part3_pct": 74.09470752089136,
+      "part4_pct": 76.59574468085107,
+      "part5_pct": 76.04790419161677,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-30B-A3B-Thinking_seed42_20251209_153505.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-30B-A3B-Thinking_20251020_214736.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-12-09T15:35:05",
+        "explicit_reasoning_evaluation": "2025-10-20T21:47:36"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-32B-Instruct",
+      "display_model_name": "Qwen3-VL-32B-Instruct",
+      "canonical_model_name": "qwen3vl32binstruct",
+      "accuracy_pct": 67.47463359639234,
+      "reasoning_total": 14.848920863309353,
+      "korean_pct": 61.64383561643836,
+      "text_pct": 68.73522458628841,
+      "multimodal_pct": 41.46341463414634,
+      "part1_pct": 67.828418230563,
+      "part2_pct": 71.98795180722891,
+      "part3_pct": 64.34540389972145,
+      "part4_pct": 69.41489361702128,
+      "part5_pct": 63.772455089820355,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-32B-Instruct_seed42_20251021_201212.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-32B-Instruct_20251021_213647.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T20:12:12",
+        "explicit_reasoning_evaluation": "2025-10-21T21:36:47"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-32B-Thinking",
+      "display_model_name": "Qwen3-VL-32B-Thinking",
+      "canonical_model_name": "qwen3vl32bthinking",
+      "accuracy_pct": 78.57948139797068,
+      "reasoning_total": 16.194244604316548,
+      "korean_pct": 60.273972602739725,
+      "text_pct": 79.90543735224587,
+      "multimodal_pct": 51.21951219512195,
+      "part1_pct": 74.26273458445041,
+      "part2_pct": 85.2409638554217,
+      "part3_pct": 78.8300835654596,
+      "part4_pct": 78.72340425531915,
+      "part5_pct": 76.34730538922156,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-32B-Thinking_seed42_20251022_063001.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-32B-Thinking_20251022_001919.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-22T06:30:01",
+        "explicit_reasoning_evaluation": "2025-10-22T00:19:19"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-4B-Instruct",
+      "display_model_name": "Qwen3-VL-4B-Instruct",
+      "canonical_model_name": "qwen3vl4binstruct",
+      "accuracy_pct": 50.95828635851184,
+      "reasoning_total": 11.545454545454545,
+      "korean_pct": 46.57534246575342,
+      "text_pct": 51.06382978723404,
+      "multimodal_pct": 48.78048780487805,
+      "part1_pct": 50.67024128686327,
+      "part2_pct": 56.325301204819276,
+      "part3_pct": 45.96100278551532,
+      "part4_pct": 53.45744680851063,
+      "part5_pct": 48.50299401197605,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-4B-Instruct_seed42_20251021_203023.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-4B-Instruct_20251229_154121.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T20:30:23",
+        "explicit_reasoning_evaluation": "2025-12-29T15:41:21"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-4B-Thinking",
+      "display_model_name": "Qwen3-VL-4B-Thinking",
+      "canonical_model_name": "qwen3vl4bthinking",
+      "accuracy_pct": 66.1217587373168,
+      "reasoning_total": 11.575539568345324,
+      "korean_pct": 54.794520547945204,
+      "text_pct": 67.02127659574468,
+      "multimodal_pct": 47.5609756097561,
+      "part1_pct": 60.05361930294906,
+      "part2_pct": 80.12048192771084,
+      "part3_pct": 62.67409470752089,
+      "part4_pct": 64.09574468085107,
+      "part5_pct": 64.97005988023952,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-4B-Thinking_seed42_20251022_052644.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-4B-Thinking_20251022_011210.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-22T05:26:44",
+        "explicit_reasoning_evaluation": "2025-10-22T01:12:10"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-8B-Instruct",
+      "display_model_name": "Qwen3-VL-8B-Instruct",
+      "canonical_model_name": "qwen3vl8binstruct",
+      "accuracy_pct": 53.77677564825254,
+      "reasoning_total": 12.071942446043165,
+      "korean_pct": 43.83561643835616,
+      "text_pct": 54.25531914893617,
+      "multimodal_pct": 43.90243902439025,
+      "part1_pct": 54.15549597855228,
+      "part2_pct": 58.13253012048193,
+      "part3_pct": 49.30362116991643,
+      "part4_pct": 55.85106382978723,
+      "part5_pct": 51.49700598802395,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-8B-Instruct_seed42_20251021_213804.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-8B-Instruct_20251022_020334.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T21:38:04",
+        "explicit_reasoning_evaluation": "2025-10-22T02:03:34"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3-VL-8B-Thinking",
+      "display_model_name": "Qwen3-VL-8B-Thinking",
+      "canonical_model_name": "qwen3vl8bthinking",
+      "accuracy_pct": 71.70236753100339,
+      "reasoning_total": 10.33093525179856,
+      "korean_pct": 61.64383561643836,
+      "text_pct": 73.28605200945626,
+      "multimodal_pct": 39.02439024390244,
+      "part1_pct": 66.21983914209115,
+      "part2_pct": 79.81927710843374,
+      "part3_pct": 70.47353760445682,
+      "part4_pct": 71.27659574468085,
+      "part5_pct": 71.55688622754491,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-8B-Thinking_seed42_20251021_182516.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-8B-Thinking_20251020_113849.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-21T18:25:16",
+        "explicit_reasoning_evaluation": "2025-10-20T11:38:49"
+      }
+    },
+    {
+      "model_key": "NCSOFT/VARCO-VISION-2.0-14B",
+      "display_model_name": "VARCO-Vision-2.0-14B",
+      "canonical_model_name": "varcovision2014b",
+      "accuracy_pct": 58.680947012401354,
+      "reasoning_total": 11.244604316546763,
+      "korean_pct": 57.534246575342465,
+      "text_pct": 59.456264775413715,
+      "multimodal_pct": 42.68292682926829,
+      "part1_pct": 58.98123324396782,
+      "part2_pct": 62.34939759036144,
+      "part3_pct": 54.317548746518106,
+      "part4_pct": 61.702127659574465,
+      "part5_pct": 55.98802395209581,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/NCSOFT_VARCO-VISION-2.0-14B_seed42_20251020_220121.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/NCSOFT_VARCO-VISION-2.0-14B_20251020_032050.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T22:01:21",
+        "explicit_reasoning_evaluation": "2025-10-20T03:20:50"
+      }
+    },
+    {
+      "model_key": "NCSOFT/VARCO-VISION-2.0-1.7B",
+      "display_model_name": "VARCO-Vision-2.0-1.7B",
+      "canonical_model_name": "varcovision2017b",
+      "accuracy_pct": 35.174746335963924,
+      "reasoning_total": 5.755395683453237,
+      "korean_pct": 34.24657534246575,
+      "text_pct": 36.5839243498818,
+      "multimodal_pct": 6.097560975609756,
+      "part1_pct": 35.120643431635386,
+      "part2_pct": 35.8433734939759,
+      "part3_pct": 33.42618384401114,
+      "part4_pct": 38.03191489361702,
+      "part5_pct": 33.23353293413174,
+      "sources": {
+        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/NCSOFT_VARCO-VISION-2.0-1.7B_seed42_20251020_221959.json",
+        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/NCSOFT_VARCO-VISION-2.0-1.7B_20251020_152857.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2025-10-20T22:19:59",
+        "explicit_reasoning_evaluation": "2025-10-20T15:28:57"
+      }
+    }
+  ]
+}
