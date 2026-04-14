@@ -4,61 +4,112 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>K-MetBench Leaderboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./site.css" />
   </head>
   <body>
-    <header class="page-header">
-      <div class="page-header__inner">
-        <p class="eyebrow">K-MetBench</p>
-        <h1>Leaderboard</h1>
-        <p class="lede">
-          Public summary scores derived from the paper-aligned export pipeline.
-        </p>
-      </div>
-    </header>
-    <main>
-      <section class="summary-band">
-        <div class="summary-band__inner">
-          <div class="summary-grid" id="summary-grid"></div>
-          <div class="verification" id="verification-status"></div>
-        </div>
-      </section>
+    <main id="content" class="page-shell">
+      <h1>K-MetBench Leaderboard</h1>
+      <p class="subtitle">
+        Multi-dimensional benchmark for fine-grained evaluation of meteorology models across
+        accuracy, reasoning, geo-cultural alignment, and five sub-domains.
+      </p>
 
-      <section class="controls-band">
-        <div class="controls-band__inner">
+      <div class="badge-row" aria-label="Resource links">
+        <span class="badge-image">
+          <img
+            src="https://img.shields.io/badge/Paper-ACL_Findings_2026-B31B1B.svg?style=for-the-badge"
+            alt="Paper: ACL Findings 2026"
+          />
+        </span>
+        <a href="https://github.com/kmetbench/kmetbench-release">
+          <img
+            src="https://img.shields.io/badge/Dataset%2BEval-GitHub-181717.svg?style=for-the-badge"
+            alt="Dataset and Eval Kit on GitHub"
+          />
+        </a>
+        <a href="https://github.com/kmetbench/kmetbench.github.io">
+          <img
+            src="https://img.shields.io/badge/Leaderboard-GitHub_Pages-0f766e.svg?style=for-the-badge"
+            alt="Leaderboard"
+          />
+        </a>
+        <a href="#citation">
+          <img
+            src="https://img.shields.io/badge/Citation-BibTeX-2563eb.svg?style=for-the-badge"
+            alt="Citation"
+          />
+        </a>
+      </div>
+
+      <div class="description">
+        <strong>K-MetBench</strong> reports public leaderboard scores from the paper-aligned export
+        pipeline. Reported values are cross-checked against the final paper tables before release.
+      </div>
+
+      <div class="meta-strip" id="meta-strip"></div>
+
+      <section class="results-section" aria-labelledby="results-heading">
+        <div class="controls-row">
+          <div class="legend" aria-label="Model tags">
+            <span>▲ Reasoning</span>
+            <span>● Instruct</span>
+          </div>
           <label class="search">
             <span>Search models</span>
             <input id="search-input" type="search" placeholder="Model name" />
           </label>
         </div>
-      </section>
 
-      <section class="table-band">
-        <div class="table-band__inner">
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Model</th>
-                  <th>Acc.</th>
-                  <th>Reas.</th>
-                  <th>Geo-Cult.</th>
-                  <th>Text</th>
-                  <th>Multi</th>
-                  <th>P1</th>
-                  <th>P2</th>
-                  <th>P3</th>
-                  <th>P4</th>
-                  <th>P5</th>
-                </tr>
-              </thead>
-              <tbody id="leaderboard-body"></tbody>
-            </table>
-          </div>
+        <div class="section-label" id="results-heading">Results</div>
+
+        <div class="table-scroll-wrapper">
+          <table id="lb-table">
+            <thead>
+              <tr>
+                <th data-sort="rank">#<span class="sort-arrow"></span></th>
+                <th data-sort="display_model_name">Model<span class="sort-arrow"></span></th>
+                <th data-sort="accuracy_pct">Acc.<span class="sort-arrow"></span></th>
+                <th data-sort="reasoning_total">Reas.<span class="sort-arrow"></span></th>
+                <th data-sort="korean_pct">Geo-Cult.<span class="sort-arrow"></span></th>
+                <th data-sort="text_pct">Text<span class="sort-arrow"></span></th>
+                <th data-sort="multimodal_pct">Multi<span class="sort-arrow"></span></th>
+                <th data-sort="part1_pct">P1<span class="sort-arrow"></span></th>
+                <th data-sort="part2_pct">P2<span class="sort-arrow"></span></th>
+                <th data-sort="part3_pct">P3<span class="sort-arrow"></span></th>
+                <th data-sort="part4_pct">P4<span class="sort-arrow"></span></th>
+                <th data-sort="part5_pct">P5<span class="sort-arrow"></span></th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+          </table>
         </div>
       </section>
+
+      <section class="citation-section" id="citation" aria-labelledby="citation-heading">
+        <div class="section-label" id="citation-heading">Citation</div>
+        <p class="citation-note">
+          Findings of the Association for Computational Linguistics: ACL 2026. Public paper URL
+          pending.
+        </p>
+        <pre id="citation-block"></pre>
+      </section>
     </main>
+
+    <footer class="footer">
+      <p>
+        K-MetBench &copy; 2026 &middot; Release:
+        <a href="https://github.com/kmetbench/kmetbench-release">GitHub</a> &middot; Paper:
+        Findings of the Association for Computational Linguistics: ACL 2026
+      </p>
+      <p id="footer-updated">Last updated: pending</p>
+    </footer>
+
     <script src="./site.js" defer></script>
   </body>
 </html>
