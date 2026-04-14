@@ -8,6 +8,7 @@ const typeFilterButtons = document.querySelectorAll(".legend-filter");
 const resultNoteSortButtons = document.querySelectorAll(".results-note-sort");
 const searchInput = document.getElementById("search-input");
 const citationBlock = document.getElementById("citation-block");
+const SITE_ASSET_VERSION = "20260415b";
 
 const plotMetrics = [
   {
@@ -737,7 +738,7 @@ async function loadPage() {
   buildCitation();
   buildPlotTabs();
 
-  const leaderboardResponse = await fetch("./data/leaderboard_table_1_source.json");
+  const leaderboardResponse = await fetch(`./data/leaderboard_table_1_source.json?v=${SITE_ASSET_VERSION}`);
   const leaderboardPayload = await leaderboardResponse.json();
   allRows = [...leaderboardPayload.rows].sort((left, right) => right.accuracy_pct - left.accuracy_pct);
 
