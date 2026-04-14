@@ -118,13 +118,10 @@ function renderModelFlags(row) {
 
 function buildMeta(rows, report) {
   const lastUpdated = formatDate(latestTimestamp(rows));
-  const status = report?.paper_crosscheck || "unknown";
   const mismatchCount = report?.mismatch_count ?? 0;
-  const statusClass = status === "pass" ? "" : "is-mismatch";
 
   metaStrip.innerHTML = [
     `<div class="meta-pill"><strong>${rows.length}</strong> models</div>`,
-    `<div class="meta-pill">Paper cross-check: <span class="meta-pill__status ${statusClass}">${status}</span></div>`,
     `<div class="meta-pill"><strong>${report?.comparison_count || 0}</strong> compared, <strong>${mismatchCount}</strong> mismatches</div>`,
     `<div class="meta-pill">Last updated: <strong>${lastUpdated}</strong></div>`,
   ].join("");
