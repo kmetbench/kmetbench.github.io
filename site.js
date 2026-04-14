@@ -91,25 +91,11 @@ function compareRows(left, right) {
   return 0;
 }
 
-function isReasoningModel(row) {
-  const haystack = `${row.display_model_name} ${row.model_key}`.toLowerCase();
-  return haystack.includes("thinking") || haystack.includes("reasoning") || haystack.includes("think");
-}
-
-function isVisionModel(row) {
-  return row.multimodal_pct !== null && row.multimodal_pct !== undefined;
-}
-
-function isKoreanModel(row) {
-  const haystack = `${row.display_model_name} ${row.model_key}`.toLowerCase();
-  return ["a.x", "exaone", "hyperclova", "hyperclovax", "varco"].some((token) => haystack.includes(token));
-}
-
 function renderTypeTags(row) {
   const tags = [
-    ["k", "K", "Korean", isKoreanModel(row)],
-    ["v", "V", "Vision", isVisionModel(row)],
-    ["r", "R", "Reasoning", isReasoningModel(row)],
+    ["k", "K", "Korean", Boolean(row.is_korean_model)],
+    ["v", "V", "Vision", Boolean(row.is_vision_model)],
+    ["r", "R", "Reasoning", Boolean(row.is_reasoning_model)],
   ];
 
   return `
