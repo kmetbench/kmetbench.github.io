@@ -16,8 +16,8 @@
     <main id="content" class="page-shell">
       <h1>K-MetBench Leaderboard</h1>
       <p class="subtitle">
-        Multi-dimensional benchmark for fine-grained evaluation of meteorology models across
-        accuracy, reasoning, geo-cultural alignment, and five sub-domains.
+        Public leaderboard for the K-MetBench camera-ready release on expert meteorological
+        reasoning, geo-cultural alignment, and multimodal weather understanding.
       </p>
 
       <div class="badge-row" aria-label="Resource links">
@@ -47,18 +47,35 @@
         </a>
       </div>
 
-      <div class="description">
-        <strong>K-MetBench</strong> reports public leaderboard scores from the paper-aligned export
-        pipeline. Reported values are cross-checked against the final paper tables before release.
-      </div>
+      <section class="intro-copy" aria-label="Benchmark overview">
+        <p>
+          <strong>K-MetBench</strong> evaluates more than 50 language and vision-language models on
+          1,774 questions from the Korean National Meteorological Engineer examination across five
+          official subject areas: Weather Analysis and Forecast Theory, Meteorological Observation
+          Methods, Atmospheric Dynamics, Climatology, and Atmospheric Physics.
+        </p>
+        <p>
+          <strong>The benchmark</strong> isolates 82 multimodal questions, 141 reasoning questions
+          with expert-verified rationales, and 73 Korean-specific questions to diagnose modality,
+          reasoning, and geo-cultural gaps in weather-domain evaluation.
+        </p>
+        <p>
+          <strong>All models</strong> are evaluated under a <strong>zero-shot</strong> protocol.
+          This public leaderboard reports paper-aligned summary metrics cross-checked against the
+          ACL 2026 camera-ready results.
+        </p>
+      </section>
 
       <div class="meta-strip" id="meta-strip"></div>
 
       <section class="results-section" aria-labelledby="results-heading">
         <div class="controls-row">
-          <div class="legend" aria-label="Model tags">
-            <span>▲ Reasoning</span>
-            <span>● Instruct</span>
+          <div class="legend" aria-label="Type tags">
+            <span class="legend-entry"><span class="type-pill type-pill--k">K</span> Korean</span>
+            <span class="legend-entry"><span class="type-pill type-pill--v">V</span> Vision</span>
+            <span class="legend-entry"
+              ><span class="type-pill type-pill--r">R</span> Reasoning</span
+            >
           </div>
           <label class="search">
             <span>Search models</span>
@@ -67,6 +84,13 @@
         </div>
 
         <div class="section-label" id="results-heading">Results</div>
+        <p class="results-note">
+          Size = parameter count in billions (B) when available. Type: K = Korean, V = Vision, R =
+          Reasoning. Acc. = Accuracy. Reas. = Reasoning score (4-20). Geo-Cult. = Geo-Cultural.
+          Text = Text-Only. Multi = Multimodal. P1 = Weather Analysis &amp; Forecast Theory. P2 =
+          Meteorological Observation Methods. P3 = Atmospheric Dynamics. P4 = Climatology. P5 =
+          Atmospheric Physics.
+        </p>
 
         <div class="table-scroll-wrapper">
           <table id="lb-table">
@@ -74,6 +98,8 @@
               <tr>
                 <th data-sort="rank">#<span class="sort-arrow"></span></th>
                 <th data-sort="display_model_name">Model<span class="sort-arrow"></span></th>
+                <th data-sort="model_size_b">Size<span class="sort-arrow"></span></th>
+                <th class="type-header">Type</th>
                 <th data-sort="accuracy_pct">Acc.<span class="sort-arrow"></span></th>
                 <th data-sort="reasoning_total">Reas.<span class="sort-arrow"></span></th>
                 <th data-sort="korean_pct">Geo-Cult.<span class="sort-arrow"></span></th>
@@ -94,8 +120,8 @@
       <section class="citation-section" id="citation" aria-labelledby="citation-heading">
         <div class="section-label" id="citation-heading">Citation</div>
         <p class="citation-note">
-          Findings of the Association for Computational Linguistics: ACL 2026. Public paper URL
-          pending.
+          Findings of the Association for Computational Linguistics: ACL 2026 camera-ready
+          manuscript.
         </p>
         <pre id="citation-block"></pre>
       </section>
@@ -103,11 +129,17 @@
 
     <footer class="footer">
       <p>
-        K-MetBench &copy; 2026 &middot; Release:
-        <a href="https://github.com/kmetbench/kmetbench-release">GitHub</a> &middot; Paper:
-        Findings of the Association for Computational Linguistics: ACL 2026
+        K-MetBench &copy; 2026 &middot; Code:
+        <a href="https://github.com/kmetbench/kmetbench-release/blob/main/LICENSE">MIT</a>
+        &middot; Dataset:
+        <a href="https://huggingface.co/datasets/soyeonbot/K-MetBench">CC BY-NC-SA 4.0</a>
       </p>
-      <p id="footer-updated">Last updated: pending</p>
+      <p>v1.0 &middot; Last updated: 2026-04-14</p>
+      <p>
+        Inspired by
+        <a href="https://evalplus.github.io/leaderboard.html">EvalPlus Leaderboard</a>,
+        <a href="https://kormedmcqa-v.github.io/">KorMedMCQA-V</a>
+      </p>
     </footer>
 
     <script src="./site.js" defer></script>

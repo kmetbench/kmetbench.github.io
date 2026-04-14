@@ -2,7 +2,6 @@ const leaderboardBody = document.getElementById("leaderboard-body");
 const metaStrip = document.getElementById("meta-strip");
 const searchInput = document.getElementById("search-input");
 const citationBlock = document.getElementById("citation-block");
-const footerUpdated = document.getElementById("footer-updated");
 
 const metricColumns = [
   ["accuracy_pct", 1],
@@ -97,23 +96,32 @@ function isReasoningModel(row) {
   return haystack.includes("thinking") || haystack.includes("reasoning") || haystack.includes("think");
 }
 
-function isInstructModel(row) {
-  const haystack = `${row.display_model_name} ${row.model_key}`.toLowerCase();
-  return haystack.includes("instruct");
+function isVisionModel(row) {
+  return row.multimodal_pct !== null && row.multimodal_pct !== undefined;
 }
 
-function renderModelFlags(row) {
-  const flags = [];
-  if (isReasoningModel(row)) {
-    flags.push('<span class="model-flag model-flag--reasoning">▲ Reasoning</span>');
-  }
-  if (isInstructModel(row)) {
-    flags.push('<span class="model-flag model-flag--instruct">● Instruct</span>');
-  }
-  if (!flags.length) {
-    return "";
-  }
-  return `<div class="model-flags">${flags.join("")}</div>`;
+function isKoreanModel(row) {
+  const haystack = `${row.display_model_name} ${row.model_key}`.toLowerCase();
+  return ["a.x", "exaone", "hyperclova", "hyperclovax", "varco"].some((token) => haystack.includes(token));
+}
+
+function renderTypeTags(row) {
+  const tags = [
+    ["k", "K", "Korean", isKoreanModel(row)],
+    ["v", "V", "Vision", isVisionModel(row)],
+    ["r", "R", "Reasoning", isReasoningModel(row)],
+  ];
+
+  return `
+    <div class="type-tags">
+      ${tags
+        .map(
+          ([key, shortLabel, fullLabel, enabled]) =>
+            `<span class="type-pill ${enabled ? `type-pill--${key}` : "type-pill--off"}" title="${fullLabel}">${shortLabel}</span>`,
+        )
+        .join("")}
+    </div>
+  `;
 }
 
 function buildMeta(rows, report) {
@@ -123,10 +131,8 @@ function buildMeta(rows, report) {
   metaStrip.innerHTML = [
     `<div class="meta-pill"><strong>${rows.length}</strong> models</div>`,
     `<div class="meta-pill"><strong>${report?.comparison_count || 0}</strong> compared, <strong>${mismatchCount}</strong> mismatches</div>`,
-    `<div class="meta-pill">Last updated: <strong>${lastUpdated}</strong></div>`,
+    `<div class="meta-pill">Latest source timestamp: <strong>${lastUpdated}</strong></div>`,
   ].join("");
-
-  footerUpdated.textContent = `Last updated: ${lastUpdated}`;
 }
 
 function buildCitation() {
@@ -135,7 +141,7 @@ function buildCitation() {
   author = {Kim, Soyeon and Kang, Cheongwoong and Lee, Myeongjin and Chang, Eun-Chul and Lee, Jaedeok and Choi, Jaesik},
   booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
   year = {2026},
-  note = {Camera-ready in progress}
+  note = {Camera-ready manuscript}
 }`;
 }
 
@@ -143,6 +149,7 @@ function renderRows(rows) {
   const sortedRows = [...rows].sort(compareRows);
   leaderboardBody.innerHTML = sortedRows
     .map((row, index) => {
+      const sizeLabel = row.model_size_label || "-";
       const metrics = metricColumns
         .map(([key, digits], metricIndex) => {
           const value = formatMetric(row[key], digits);
@@ -156,8 +163,9 @@ function renderRows(rows) {
           <td class="rank-cell">${index + 1}</td>
           <td class="model-cell">
             <span class="model-name">${row.display_model_name}</span>
-            ${renderModelFlags(row)}
           </td>
+          <td class="size-cell">${sizeLabel}</td>
+          <td class="type-cell">${renderTypeTags(row)}</td>
           ${metrics}
         </tr>
       `;
