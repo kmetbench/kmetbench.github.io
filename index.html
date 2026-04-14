@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
     <link rel="stylesheet" href="./site.css" />
   </head>
   <body>
@@ -21,76 +22,115 @@
       </p>
 
       <div class="badge-row" aria-label="Resource links">
-        <span class="badge-image">
+        <a href="https://openreview.net/forum?id=1Gn5pKek8k">
           <img
-            src="https://img.shields.io/badge/Paper-ACL_Findings_2026-B31B1B.svg?style=for-the-badge"
-            alt="Paper: ACL Findings 2026"
-          />
-        </span>
-        <a href="https://github.com/kmetbench/kmetbench-release">
-          <img
-            src="https://img.shields.io/badge/Dataset%2BEval-GitHub-181717.svg?style=for-the-badge"
-            alt="Dataset and Eval Kit on GitHub"
+            src="https://img.shields.io/badge/Paper-ACL%202026-4285F4.svg?style=for-the-badge"
+            alt="Paper badge"
           />
         </a>
-        <a href="https://github.com/kmetbench/kmetbench.github.io">
+        <a href="https://huggingface.co/datasets/soyeonbot/K-MetBench">
           <img
-            src="https://img.shields.io/badge/Leaderboard-GitHub_Pages-0f766e.svg?style=for-the-badge"
-            alt="Leaderboard"
+            src="https://img.shields.io/badge/Dataset-HuggingFace-EA4335.svg?style=for-the-badge"
+            alt="Dataset badge"
+          />
+        </a>
+        <a href="https://github.com/kmetbench/kmetbench-release">
+          <img
+            src="https://img.shields.io/badge/Code-GitHub-FBBC05.svg?style=for-the-badge"
+            alt="Code badge"
           />
         </a>
         <a href="#citation">
           <img
-            src="https://img.shields.io/badge/Citation-BibTeX-2563eb.svg?style=for-the-badge"
-            alt="Citation"
+            src="https://img.shields.io/badge/Citation-BibTeX-34A853.svg?style=for-the-badge"
+            alt="Citation badge"
           />
         </a>
       </div>
 
       <section class="intro-copy" aria-label="Benchmark overview">
         <p>
-          <strong>K-MetBench</strong> evaluates more than 50 language and vision-language models on
-          1,774 questions from the Korean National Meteorological Engineer examination across five
-          official subject areas: Weather Analysis and Forecast Theory, Meteorological Observation
-          Methods, Atmospheric Dynamics, Climatology, and Atmospheric Physics.
+          <strong>K-MetBench</strong> evaluates more than 50 language models and vision-language
+          models on 1,774 questions drawn from the Korean National Meteorological Engineer
+          Examination. All models are evaluated under a <strong>zero-shot</strong> protocol.
         </p>
         <p>
-          <strong>The benchmark</strong> isolates 82 multimodal questions, 141 reasoning questions
-          with expert-verified rationales, and 73 Korean-specific questions to diagnose modality,
-          reasoning, and geo-cultural gaps in weather-domain evaluation.
-        </p>
-        <p>
-          <strong>All models</strong> are evaluated under a <strong>zero-shot</strong> protocol.
-          This public leaderboard reports paper-aligned summary metrics cross-checked against the
-          ACL 2026 camera-ready results.
+          The benchmark supports fine-grained analysis through 82 multimodal
+          questions, 141 reasoning questions with expert-verified rationales, and 73
+          Korean-specific questions, while also spanning five official subject areas: Weather
+          Analysis and Forecast Theory (P1), Meteorological Observation Methods (P2), Atmospheric
+          Dynamics (P3), Climatology (P4), and Atmospheric Physics (P5). Together, these subsets
+          help diagnose gaps in modality understanding, expert reasoning, geo-cultural knowledge,
+          and topic-specific performance in weather-domain evaluation.
         </p>
       </section>
 
-      <div class="meta-strip" id="meta-strip"></div>
+      <section class="plot-section" aria-label="Scaling plot">
+        <div class="plot-tabs" id="plot-tabs" role="tablist" aria-label="Leaderboard metrics"></div>
+        <div class="plot-frame">
+          <div class="plot-copy">
+            <p class="plot-subtitle" id="plot-subtitle">Loading leaderboard metrics...</p>
+          </div>
+          <div class="plot-surface" id="plot-surface">
+            <div id="chart-container" role="img" aria-label="Scatter plot of parameter count and leaderboard metric"></div>
+            <div id="plot-filter-bar" aria-label="Model filters">
+              <button type="button" class="legend-entry legend-filter" data-type-filter="p" aria-pressed="true">
+                <span class="type-pill type-pill--p results-note-pill">P</span> Proprietary
+              </button>
+              <button type="button" class="legend-entry legend-filter" data-type-filter="k" aria-pressed="true">
+                <span class="type-pill type-pill--k results-note-pill">K</span> Korean
+              </button>
+              <button type="button" class="legend-entry legend-filter" data-type-filter="g" aria-pressed="true">
+                <span class="type-pill type-pill--g results-note-pill">G</span> General
+              </button>
+            </div>
+            <div id="shape-legend" aria-hidden="true">
+              <span><span class="shape-legend-symbol shape-legend-symbol--reasoning">▲</span> Reasoning</span>
+              <span><span class="shape-legend-symbol shape-legend-symbol--instruct">●</span> Instruct</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="results-section" aria-labelledby="results-heading">
         <div class="controls-row">
-          <div class="legend" aria-label="Type tags">
-            <span class="legend-entry"><span class="type-pill type-pill--k">K</span> Korean</span>
-            <span class="legend-entry"><span class="type-pill type-pill--v">V</span> Vision</span>
-            <span class="legend-entry"
-              ><span class="type-pill type-pill--r">R</span> Reasoning</span
-            >
-          </div>
           <label class="search">
             <span>Search models</span>
             <input id="search-input" type="search" placeholder="Model name" />
           </label>
         </div>
-
         <div class="section-label" id="results-heading">Results</div>
-        <p class="results-note">
-          Size = parameter count in billions (B) when available. Type: K = Korean, V = Vision, R =
-          Reasoning. Acc. = Accuracy. Reas. = Reasoning score (4-20). Geo-Cult. = Geo-Cultural.
-          Text = Text-Only. Multi = Multimodal. P1 = Weather Analysis &amp; Forecast Theory. P2 =
-          Meteorological Observation Methods. P3 = Atmospheric Dynamics. P4 = Climatology. P5 =
-          Atmospheric Physics.
-        </p>
+        <div class="results-copy">
+          <p class="results-note">
+            <button type="button" class="results-note-sort" data-type-sort="p" aria-pressed="false">
+              <span class="type-pill type-pill--p results-note-pill">P</span>
+            </button>
+            = Proprietary model.
+            <button type="button" class="results-note-sort" data-type-sort="k" aria-pressed="false">
+              <span class="type-pill type-pill--k results-note-pill">K</span>
+            </button>
+            = Korean model.
+            <button type="button" class="results-note-sort" data-type-sort="v" aria-pressed="false">
+              <span class="type-pill type-pill--v results-note-pill">V</span>
+            </button>
+            = Vision language model.
+            <button type="button" class="results-note-sort" data-type-sort="r" aria-pressed="false">
+              <span class="type-pill type-pill--r results-note-pill">R</span>
+            </button>
+            = Reasoning model.
+            <strong>Size</strong> = parameter count in billions (B).
+            <strong>Acc</strong> = Accuracy.
+            <strong>Reasoning</strong> = Reasoning score (4-20).
+            <strong>Geo</strong> = Geo-Cultural.
+            <strong>Text</strong> = Text-Only.
+            <strong>Multi</strong> = Multimodal.
+            <strong>P1</strong> = Weather Analysis &amp; Forecast Theory.
+            <strong>P2</strong> = Meteorological Observation Methods.
+            <strong>P3</strong> = Atmospheric Dynamics.
+            <strong>P4</strong> = Climatology.
+            <strong>P5</strong> = Atmospheric Physics.
+          </p>
+        </div>
 
         <div class="table-scroll-wrapper">
           <table id="lb-table">
@@ -99,10 +139,10 @@
                 <th data-sort="rank">#<span class="sort-arrow"></span></th>
                 <th data-sort="display_model_name">Model<span class="sort-arrow"></span></th>
                 <th data-sort="model_size_b">Size<span class="sort-arrow"></span></th>
-                <th class="type-header">Type</th>
-                <th data-sort="accuracy_pct">Acc.<span class="sort-arrow"></span></th>
-                <th data-sort="reasoning_total">Reas.<span class="sort-arrow"></span></th>
-                <th data-sort="korean_pct">Geo-Cult.<span class="sort-arrow"></span></th>
+                <th class="type-header" data-sort="type_sort_key">Type<span class="sort-arrow"></span></th>
+                <th data-sort="accuracy_pct">Acc<span class="sort-arrow"></span></th>
+                <th data-sort="reasoning_total">Reasoning<span class="sort-arrow"></span></th>
+                <th data-sort="korean_pct">Geo<span class="sort-arrow"></span></th>
                 <th data-sort="text_pct">Text<span class="sort-arrow"></span></th>
                 <th data-sort="multimodal_pct">Multi<span class="sort-arrow"></span></th>
                 <th data-sort="part1_pct">P1<span class="sort-arrow"></span></th>
@@ -115,14 +155,12 @@
             <tbody id="leaderboard-body"></tbody>
           </table>
         </div>
+
+        <div class="meta-strip" id="meta-strip"></div>
       </section>
 
       <section class="citation-section" id="citation" aria-labelledby="citation-heading">
         <div class="section-label" id="citation-heading">Citation</div>
-        <p class="citation-note">
-          Findings of the Association for Computational Linguistics: ACL 2026 camera-ready
-          manuscript.
-        </p>
         <pre id="citation-block"></pre>
       </section>
     </main>
