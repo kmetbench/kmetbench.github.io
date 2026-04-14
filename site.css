@@ -9,6 +9,7 @@
   --header: #111827;
   --header-hover: #1f2937;
   --accent: #0f766e;
+  --proprietary: #7c3aed;
   --korean: #be185d;
   --vision: #0f766e;
   --reasoning: #b45309;
@@ -73,8 +74,7 @@ h1 {
   gap: 12px;
 }
 
-.badge-row a,
-.badge-image {
+.badge-row a {
   display: inline-flex;
 }
 
@@ -85,6 +85,7 @@ h1 {
 
 .intro-copy,
 .meta-strip,
+.plot-section,
 .results-section,
 .citation-section {
   width: 100%;
@@ -107,17 +108,18 @@ h1 {
 .meta-strip {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 10px;
 }
 
 .meta-pill {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--surface);
-  padding: 8px 12px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
   font-size: 12px;
   color: var(--muted);
+  text-align: right;
 }
 
 .meta-pill strong {
@@ -135,16 +137,153 @@ h1 {
 }
 
 .results-section,
+.plot-section,
 .citation-section {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
+.plot-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0;
+  width: 100%;
+  justify-content: center;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.plot-tab {
+  flex: 0 0 auto;
+  border: 1px solid #cbd5e1;
+  border-right-width: 0;
+  border-radius: 0;
+  background: var(--surface);
+  padding: 10px 14px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.plot-tab:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+.plot-tab:last-child {
+  border-right-width: 1px;
+  border-radius: 0 8px 8px 0;
+}
+
+.plot-tab:hover {
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.plot-tab.is-active {
+  border-color: #1e293b;
+  background: #1e293b;
+  color: #ffffff;
+}
+
+.plot-tab.is-active + .plot-tab {
+  border-left-color: #1e293b;
+}
+
+.plot-tab.is-active:hover {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+.plot-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.plot-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.plot-title,
+.plot-subtitle {
+  margin: 0;
+}
+
+.plot-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.plot-subtitle {
+  display: none;
+}
+
+.plot-surface {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+#chart-container {
+  width: 100%;
+  height: 100%;
+}
+
+#plot-filter-bar {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  display: flex;
+  gap: 12px;
+  z-index: 2;
+  font-size: 12px;
+  color: #64748b;
+}
+
+#shape-legend {
+  position: absolute;
+  top: 2px;
+  right: 12px;
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: #64748b;
+  pointer-events: none;
+}
+
+.shape-legend-symbol {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.shape-legend-symbol--reasoning {
+  color: #475569;
+}
+
+.shape-legend-symbol--instruct {
+  color: #475569;
+}
+
+.results-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .controls-row {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: flex-start;
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -161,6 +300,46 @@ h1 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+}
+
+.legend-filter {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.legend-filter:hover {
+  color: var(--ink);
+}
+
+.legend-filter.is-active {
+  color: var(--ink);
+}
+
+.legend-filter.is-active .type-pill--k {
+  box-shadow: 0 0 0 1px #be185d inset;
+}
+
+.legend-filter.is-active .type-pill--p {
+  box-shadow: 0 0 0 1px #7c3aed inset;
+}
+
+.legend-filter.is-active .type-pill--g {
+  border-color: #596678;
+  background: #596678;
+  color: #f8fafc;
+}
+
+.legend-filter.is-active .type-pill--v {
+  box-shadow: 0 0 0 1px #0f766e inset;
+}
+
+.legend-filter.is-active .type-pill--r {
+  box-shadow: 0 0 0 1px #b45309 inset;
 }
 
 .search {
@@ -199,6 +378,41 @@ h1 {
   margin: 0;
   font-size: 13px;
   line-height: 1.7;
+  text-align: left;
+}
+
+.results-section .section-label {
+  text-align: left;
+}
+
+.results-note-pill {
+  margin: 0 4px 0 6px;
+  vertical-align: middle;
+  min-width: 28px;
+  padding: 1px 8px;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.results-note-sort {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.results-note-sort .results-note-pill {
+  margin-left: 0;
+}
+
+.results-note-sort:hover .results-note-pill {
+  filter: brightness(0.98);
+}
+
+.results-note-sort.is-active .results-note-pill {
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.22) inset;
 }
 
 .table-scroll-wrapper {
@@ -218,7 +432,7 @@ h1 {
 }
 
 #lb-table thead th {
-  background: var(--header);
+  background: #6b7280;
   color: #f5faf7;
   font-size: 12px;
   font-weight: 700;
@@ -232,7 +446,15 @@ h1 {
   user-select: none;
 }
 
+#lb-table thead th:nth-child(-n + 5) {
+  background: var(--header);
+}
+
 #lb-table thead th:hover {
+  background: #4b5563;
+}
+
+#lb-table thead th:nth-child(-n + 5):hover {
   background: var(--header-hover);
 }
 
@@ -247,7 +469,6 @@ h1 {
 
 #lb-table thead th.type-header {
   text-align: center;
-  cursor: default;
 }
 
 #lb-table tbody td {
@@ -257,19 +478,23 @@ h1 {
   text-align: right;
   font-size: 14px;
   white-space: nowrap;
+  color: var(--ink);
 }
 
 #lb-table tbody td:nth-child(1),
 #lb-table tbody td:nth-child(2) {
   text-align: left;
+  color: var(--ink);
 }
 
 #lb-table tbody td.size-cell {
   font-variant-numeric: tabular-nums;
+  color: var(--ink);
 }
 
 #lb-table tbody td.type-cell {
   text-align: center;
+  color: var(--ink);
 }
 
 #lb-table tbody tr:hover {
@@ -325,6 +550,18 @@ h1 {
   border-color: #f3c4da;
   background: #fce7f3;
   color: var(--korean);
+}
+
+.type-pill--p {
+  border-color: #d8c6fb;
+  background: #f3e8ff;
+  color: var(--proprietary);
+}
+
+.type-pill--g {
+  border-color: #cbd5e1;
+  background: #e2e8f0;
+  color: #94a3b8;
 }
 
 .type-pill--v {
@@ -404,8 +641,19 @@ h1 {
   }
 
   .intro-copy p,
+  .plot-subtitle,
   .results-note {
     font-size: 13px;
+  }
+
+  .plot-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .plot-tab {
+    flex: 0 0 auto;
   }
 
   .controls-row {
