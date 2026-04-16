@@ -8,7 +8,7 @@ const typeFilterButtons = document.querySelectorAll(".legend-filter");
 const resultNoteSortButtons = document.querySelectorAll(".results-note-sort");
 const searchInput = document.getElementById("search-input");
 const citationBlock = document.getElementById("citation-block");
-const SITE_ASSET_VERSION = "20260415b";
+const SITE_ASSET_VERSION = "20260416-v110";
 
 const plotMetrics = [
   {
