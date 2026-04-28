@@ -646,9 +646,9 @@ function buildCitation() {
   citationBlock.textContent = `@inproceedings{kim2026kmetbench,
 title={K-MetBench: A Multi-Dimensional Benchmark for Fine-Grained Evaluation of Expert Reasoning, Locality, and Multimodality in Meteorology},
 author={Kim, Soyeon and Kang, Cheongwoong and Lee, Myeongjin and Chang, Eun-Chul and Lee, Jaedeok and Choi, Jaesik},
-booktitle={The 64th Annual Meeting of the Association for Computational Linguistics},
+booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
 year={2026},
-url={https://openreview.net/forum?id=1Gn5pKek8k}
+url={http://arxiv.org/abs/2604.24645}
 }`;
 }
 
