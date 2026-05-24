@@ -3,7 +3,7 @@
     "accuracy_benchmark": "explicit_advanced",
     "reasoning_benchmark": "explicit_reasoning_evaluation"
   },
-  "count": 56,
+  "count": 64,
   "rows": [
     {
       "model_key": "skt/A.X-4.0",
@@ -29,8 +29,8 @@
       "part4_pct": 81.26721763085399,
       "part5_pct": 76.54723127035831,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/skt_A.X-4.0_seed42_20251022_011747.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/skt_A.X-4.0_20251020_044010.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/skt_A.X-4.0_seed42_20251022_011747.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/skt_A.X-4.0_20251020_044010.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-22T01:17:47",
@@ -61,8 +61,8 @@
       "part4_pct": 61.43250688705234,
       "part5_pct": 55.700325732899024,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/skt_A.X-4.0-Light_seed42_20251019_205728.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/skt_A.X-4.0-Light_20251020_173616.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/skt_A.X-4.0-Light_seed42_20251019_205728.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/skt_A.X-4.0-Light_20251020_173616.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-19T20:57:28",
@@ -93,8 +93,8 @@
       "part4_pct": 57.97872340425532,
       "part5_pct": 52.09580838323353,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/skt_A.X-4.0-VL-Light_seed42_20251031_145054.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/skt_A.X-4.0-VL-Light_20251225_053113.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/skt_A.X-4.0-VL-Light_seed42_20251031_145054.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/skt_A.X-4.0-VL-Light_20251225_053113.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-31T14:50:54",
@@ -125,8 +125,8 @@
       "part4_pct": 71.900826446281,
       "part5_pct": 68.72964169381108,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/CohereLabs_c4ai-command-a-03-2025_seed42_20251021_054734.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/CohereLabs_c4ai-command-a-03-2025_20251020_083442.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/CohereLabs_c4ai-command-a-03-2025_seed42_20251021_054734.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/CohereLabs_c4ai-command-a-03-2025_20251020_083442.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T05:47:34",
@@ -157,8 +157,8 @@
       "part4_pct": 78.78787878787878,
       "part5_pct": 78.50162866449512,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/CohereLabs_command-a-reasoning-08-2025_seed42_20251022_232237.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/CohereLabs_command-a-reasoning-08-2025_20251020_091429.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/CohereLabs_command-a-reasoning-08-2025_seed42_20251022_232237.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/CohereLabs_command-a-reasoning-08-2025_20251020_091429.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-22T23:22:37",
@@ -189,8 +189,8 @@
       "part4_pct": 39.11845730027548,
       "part5_pct": 32.57328990228013,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/LGAI-EXAONE_EXAONE-4.0-1.2B_seed42_20251019_201832.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/LGAI-EXAONE_EXAONE-4.0-1.2B_20251020_165839.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/LGAI-EXAONE_EXAONE-4.0-1.2B_seed42_20251019_201832.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/LGAI-EXAONE_EXAONE-4.0-1.2B_20251020_165839.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-19T20:18:32",
@@ -221,8 +221,8 @@
       "part4_pct": 63.08539944903582,
       "part5_pct": 61.23778501628665,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/LGAI-EXAONE_EXAONE-4.0-32B_seed42_20251019_202441.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/LGAI-EXAONE_EXAONE-4.0-32B_20251020_095553.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/LGAI-EXAONE_EXAONE-4.0-32B_seed42_20251019_202441.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/LGAI-EXAONE_EXAONE-4.0-32B_20251020_095553.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-19T20:24:41",
@@ -253,8 +253,8 @@
       "part4_pct": 77.3936170212766,
       "part5_pct": 72.75449101796407,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/LGAI-EXAONE_EXAONE-4.5-33B_seed42_20260416_122442.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/LGAI-EXAONE_EXAONE-4.5-33B_seed42_20260416_175405.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/LGAI-EXAONE_EXAONE-4.5-33B_seed42_20260416_122442.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/LGAI-EXAONE_EXAONE-4.5-33B_seed42_20260416_175405.json"
       },
       "timestamps": {
         "explicit_advanced": "2026-04-16T12:24:42",
@@ -285,8 +285,8 @@
       "part4_pct": 92.81914893617021,
       "part5_pct": 91.61676646706587,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/gemini-3-pro-preview_Thinking_seed42_20251224_081820.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/gemini-3-pro-preview_Thinking_seed42_20251224_145356.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/gemini-3-pro-preview_Thinking_seed42_20251224_081820.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/gemini-3-pro-preview_Thinking_seed42_20251224_145356.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-24T08:18:20",
@@ -317,8 +317,8 @@
       "part4_pct": 81.38297872340425,
       "part5_pct": 76.34730538922156,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/gpt-5.2_seed42_20251224_125526.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/gpt-5.2_seed42_20251224_134800.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/gpt-5.2_seed42_20251224_125526.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/gpt-5.2_seed42_20251224_134800.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-24T12:55:26",
@@ -349,8 +349,8 @@
       "part4_pct": 86.17021276595744,
       "part5_pct": 85.32934131736528,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/gpt-5.2_Thinking_seed42_20251224_051450.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/gpt-5.2_Thinking_seed42_20251224_142135.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/gpt-5.2_Thinking_seed42_20251224_051450.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/gpt-5.2_Thinking_seed42_20251224_142135.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-24T05:14:50",
@@ -381,8 +381,8 @@
       "part4_pct": 77.41046831955923,
       "part5_pct": 74.9185667752443,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/openai_gpt-oss-120b_seed42_20251020_051132.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/openai_gpt-oss-120b_20251020_051959.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/openai_gpt-oss-120b_seed42_20251020_051132.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/openai_gpt-oss-120b_20251020_051959.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T05:11:32",
@@ -413,8 +413,8 @@
       "part4_pct": 72.1763085399449,
       "part5_pct": 65.79804560260585,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/openai_gpt-oss-20b_seed42_20251020_230740.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/openai_gpt-oss-20b_20251020_135010.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/openai_gpt-oss-20b_seed42_20251020_230740.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/openai_gpt-oss-20b_20251020_135010.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T23:07:40",
@@ -445,8 +445,8 @@
       "part4_pct": 13.498622589531681,
       "part5_pct": 15.960912052117262,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-0.5B_seed42_20251021_075212.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-0.5B_20251228_205238.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-0.5B_seed42_20251021_075212.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-0.5B_20251228_205238.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T07:52:12",
@@ -477,8 +477,8 @@
       "part4_pct": 30.57851239669421,
       "part5_pct": 27.035830618892508,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-1.5B_seed42_20251209_093123.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-1.5B_20251228_213036.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-1.5B_seed42_20251209_093123.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Text-Instruct-1.5B_20251228_213036.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-09T09:31:23",
@@ -509,8 +509,8 @@
       "part4_pct": 55.64738292011019,
       "part5_pct": 51.14006514657981,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Think-14B_seed42_20251209_235359.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Think-14B_20251228_202928.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Think-14B_seed42_20251209_235359.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Think-14B_20251228_202928.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-09T23:53:59",
@@ -541,8 +541,8 @@
       "part4_pct": 36.702127659574465,
       "part5_pct": 32.634730538922156,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Vision-Instruct-3B_seed42_20251021_052359.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Vision-Instruct-3B_20251020_143521.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/naver-hyperclovax_HyperCLOVAX-SEED-Vision-Instruct-3B_seed42_20251021_052359.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/naver-hyperclovax_HyperCLOVAX-SEED-Vision-Instruct-3B_20251020_143521.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T05:23:59",
@@ -573,8 +573,8 @@
       "part4_pct": 50.26595744680851,
       "part5_pct": 47.604790419161674,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-14B-Instruct_seed42_20251020_220138.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-14B-Instruct_20251020_122936.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-14B-Instruct_seed42_20251020_220138.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-14B-Instruct_20251020_122936.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T22:01:38",
@@ -605,8 +605,8 @@
       "part4_pct": 23.404255319148938,
       "part5_pct": 21.55688622754491,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-1B-Instruct_seed42_20251020_024229.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-1B-Instruct_20251229_112652.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-1B-Instruct_seed42_20251020_024229.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-1B-Instruct_20251229_112652.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T02:42:29",
@@ -637,8 +637,8 @@
       "part4_pct": 29.521276595744684,
       "part5_pct": 28.443113772455092,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-2B-Instruct_seed42_20251020_030854.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-2B-Instruct_20251229_105534.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-2B-Instruct_seed42_20251020_030854.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-2B-Instruct_20251229_105534.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T03:08:54",
@@ -669,8 +669,8 @@
       "part4_pct": 61.43617021276596,
       "part5_pct": 55.688622754491014,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-38B-Instruct_seed42_20251021_053243.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-38B-Instruct_20251020_060939.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-38B-Instruct_seed42_20251021_053243.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-38B-Instruct_20251020_060939.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T05:32:43",
@@ -701,8 +701,8 @@
       "part4_pct": 43.88297872340425,
       "part5_pct": 36.82634730538922,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-4B-Instruct_seed42_20251020_031612.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-4B-Instruct_20251229_001228.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-4B-Instruct_seed42_20251020_031612.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-4B-Instruct_20251229_001228.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T03:16:12",
@@ -733,8 +733,8 @@
       "part4_pct": 52.3936170212766,
       "part5_pct": 41.61676646706587,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-8B-Instruct_seed42_20251020_041049.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-8B-Instruct_20251020_161547.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/OpenGVLab_InternVL3_5-8B-Instruct_seed42_20251020_041049.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/OpenGVLab_InternVL3_5-8B-Instruct_20251020_161547.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T04:10:49",
@@ -765,8 +765,8 @@
       "part4_pct": 65.84022038567493,
       "part5_pct": 59.28338762214984,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.1-70B-Instruct_seed42_20251228_210752.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.1-70B-Instruct_20251229_161627.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/meta-llama_Llama-3.1-70B-Instruct_seed42_20251228_210752.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.1-70B-Instruct_20251229_161627.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-28T21:07:52",
@@ -797,8 +797,8 @@
       "part4_pct": 44.352617079889804,
       "part5_pct": 42.01954397394137,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.1-8B-Instruct_seed42_20251021_041637.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.1-8B-Instruct_20251020_200856.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/meta-llama_Llama-3.1-8B-Instruct_seed42_20251021_041637.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.1-8B-Instruct_20251020_200856.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T04:16:37",
@@ -829,8 +829,8 @@
       "part4_pct": 3.8567493112947657,
       "part5_pct": 2.9315960912052117,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.2-1B-Instruct_seed42_20251209_223841.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.2-1B-Instruct_20251229_115133.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/meta-llama_Llama-3.2-1B-Instruct_seed42_20251209_223841.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.2-1B-Instruct_20251229_115133.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-09T22:38:41",
@@ -861,8 +861,8 @@
       "part4_pct": 33.88429752066116,
       "part5_pct": 30.944625407166125,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.2-3B-Instruct_seed42_20251019_203217.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.2-3B-Instruct_20251229_122409.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/meta-llama_Llama-3.2-3B-Instruct_seed42_20251019_203217.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.2-3B-Instruct_20251229_122409.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-19T20:32:17",
@@ -893,8 +893,8 @@
       "part4_pct": 62.23404255319149,
       "part5_pct": 53.293413173652695,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/meta-llama_Llama-3.2-90B-Vision-Instruct_seed42_20251030_111002.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.2-90B-Vision-Instruct_20251229_130745.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/meta-llama_Llama-3.2-90B-Vision-Instruct_seed42_20251030_111002.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/meta-llama_Llama-3.2-90B-Vision-Instruct_20251229_130745.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-30T11:10:02",
@@ -925,8 +925,8 @@
       "part4_pct": 55.09641873278237,
       "part5_pct": 45.27687296416938,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/microsoft_Phi-4_seed42_20251209_095058.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/microsoft_Phi-4_20251020_181631.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/microsoft_Phi-4_seed42_20251209_095058.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/microsoft_Phi-4_20251020_181631.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-09T09:50:58",
@@ -957,8 +957,8 @@
       "part4_pct": 29.476584022038566,
       "part5_pct": 27.68729641693811,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/microsoft_Phi-4-mini-instruct_seed42_20251019_211213.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/microsoft_Phi-4-mini-instruct_20251229_234308.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/microsoft_Phi-4-mini-instruct_seed42_20251019_211213.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/microsoft_Phi-4-mini-instruct_20251229_234308.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-19T21:12:13",
@@ -989,8 +989,8 @@
       "part4_pct": 12.672176308539946,
       "part5_pct": 14.332247557003258,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/microsoft_Phi-4-mini-reasoning_seed42_20251224_194900.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/microsoft_Phi-4-mini-reasoning_20251229_230516.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/microsoft_Phi-4-mini-reasoning_seed42_20251224_194900.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/microsoft_Phi-4-mini-reasoning_20251229_230516.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-24T19:49:00",
@@ -1021,8 +1021,8 @@
       "part4_pct": 62.76595744680851,
       "part5_pct": 60.47904191616767,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-32B-Instruct_seed42_20251228_205927.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-32B-Instruct_20251228_223446.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-32B-Instruct_seed42_20251228_205927.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-32B-Instruct_20251228_223446.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-28T20:59:27",
@@ -1053,8 +1053,8 @@
       "part4_pct": 43.88297872340425,
       "part5_pct": 40.119760479041915,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-3B-Instruct_seed42_20251223_184301.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-3B-Instruct_20251225_085638.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-3B-Instruct_seed42_20251223_184301.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-3B-Instruct_20251225_085638.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-23T18:43:01",
@@ -1085,8 +1085,8 @@
       "part4_pct": 69.68085106382979,
       "part5_pct": 68.562874251497,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-72B-Instruct_seed42_20251223_190008.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-72B-Instruct_20251225_102533.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-72B-Instruct_seed42_20251223_190008.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-72B-Instruct_20251225_102533.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-23T19:00:08",
@@ -1117,8 +1117,8 @@
       "part4_pct": 51.86170212765957,
       "part5_pct": 42.21556886227545,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-7B-Instruct_seed42_20251223_183939.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-7B-Instruct_20251225_094217.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen2.5-VL-7B-Instruct_seed42_20251223_183939.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen2.5-VL-7B-Instruct_20251225_094217.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-23T18:39:39",
@@ -1149,8 +1149,8 @@
       "part4_pct": 31.955922865013775,
       "part5_pct": 25.732899022801302,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-0.6B_seed42_20251020_224353.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-0.6B_20251020_192833.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-0.6B_seed42_20251020_224353.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-0.6B_20251020_192833.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T22:43:53",
@@ -1181,8 +1181,8 @@
       "part4_pct": 70.24793388429752,
       "part5_pct": 71.66123778501628,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-14B_seed42_20251021_110423.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-14B_20251229_142516.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-14B_seed42_20251021_110423.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-14B_20251229_142516.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T11:04:23",
@@ -1213,8 +1213,8 @@
       "part4_pct": 42.42424242424242,
       "part5_pct": 42.671009771986974,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-1.7B_seed42_20251021_025931.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-1.7B_20251229_134829.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-1.7B_seed42_20251021_025931.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-1.7B_20251229_134829.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T02:59:31",
@@ -1245,8 +1245,8 @@
       "part4_pct": 65.56473829201101,
       "part5_pct": 63.84364820846905,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-30B-A3B-Instruct-2507_seed42_20251019_130441.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-30B-A3B-Instruct-2507_20251230_033953.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-30B-A3B-Instruct-2507_seed42_20251019_130441.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-30B-A3B-Instruct-2507_20251230_033953.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-19T13:04:41",
@@ -1277,8 +1277,8 @@
       "part4_pct": 74.93112947658402,
       "part5_pct": 75.8957654723127,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-30B-A3B-Thinking-2507_seed42_20251209_143832.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-30B-A3B-Thinking-2507_20251230_041758.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-30B-A3B-Thinking-2507_seed42_20251209_143832.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-30B-A3B-Thinking-2507_20251230_041758.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-09T14:38:32",
@@ -1309,8 +1309,8 @@
       "part4_pct": 39.66942148760331,
       "part5_pct": 41.042345276872965,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-32B_seed42_20251019_182620.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-32B_20251020_131126.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-32B_seed42_20251019_182620.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-32B_20251020_131126.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-19T18:26:20",
@@ -1341,8 +1341,8 @@
       "part4_pct": 52.61707988980716,
       "part5_pct": 50.814332247557005,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-4B-Instruct-2507_seed42_20251019_201916.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-4B-Instruct-2507_20251229_215959.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-4B-Instruct-2507_seed42_20251019_201916.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-4B-Instruct-2507_20251229_215959.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-19T20:19:16",
@@ -1373,8 +1373,8 @@
       "part4_pct": 66.66666666666666,
       "part5_pct": 65.14657980456026,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-4B-Thinking-2507_seed42_20251019_191928.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-4B-Thinking-2507_20251229_224154.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-4B-Thinking-2507_seed42_20251019_191928.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-4B-Thinking-2507_20251229_224154.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-19T19:19:28",
@@ -1405,8 +1405,8 @@
       "part4_pct": 65.56473829201101,
       "part5_pct": 66.77524429967427,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-8B_seed42_20251021_160905.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-8B_20251229_150416.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-8B_seed42_20251021_160905.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-8B_20251229_150416.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T16:09:05",
@@ -1437,8 +1437,8 @@
       "part4_pct": 74.46808510638297,
       "part5_pct": 72.15568862275448,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-235B-A22B-Instruct_seed42_20251020_034013.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-235B-A22B-Instruct_20251020_075453.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-235B-A22B-Instruct_seed42_20251020_034013.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-235B-A22B-Instruct_20251020_075453.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T03:40:13",
@@ -1469,8 +1469,8 @@
       "part4_pct": 83.24468085106383,
       "part5_pct": 82.03592814371258,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-235B-A22B-Thinking_seed42_20251020_170550.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-235B-A22B-Thinking_20251020_070244.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-235B-A22B-Thinking_seed42_20251020_170550.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-235B-A22B-Thinking_20251020_070244.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T17:05:50",
@@ -1501,8 +1501,8 @@
       "part4_pct": 64.36170212765957,
       "part5_pct": 61.07784431137725,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-30B-A3B-Instruct_seed42_20251020_195143.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-30B-A3B-Instruct_20251020_223133.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-30B-A3B-Instruct_seed42_20251020_195143.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-30B-A3B-Instruct_20251020_223133.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T19:51:43",
@@ -1533,8 +1533,8 @@
       "part4_pct": 76.59574468085107,
       "part5_pct": 76.04790419161677,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-30B-A3B-Thinking_seed42_20251209_153505.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-30B-A3B-Thinking_20251020_214736.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-30B-A3B-Thinking_seed42_20251209_153505.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-30B-A3B-Thinking_20251020_214736.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-12-09T15:35:05",
@@ -1565,8 +1565,8 @@
       "part4_pct": 69.41489361702128,
       "part5_pct": 63.772455089820355,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-32B-Instruct_seed42_20251021_201212.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-32B-Instruct_20251021_213647.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-32B-Instruct_seed42_20251021_201212.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-32B-Instruct_20251021_213647.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T20:12:12",
@@ -1597,8 +1597,8 @@
       "part4_pct": 78.72340425531915,
       "part5_pct": 76.34730538922156,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-32B-Thinking_seed42_20251022_063001.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-32B-Thinking_20251022_001919.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-32B-Thinking_seed42_20251022_063001.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-32B-Thinking_20251022_001919.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-22T06:30:01",
@@ -1629,8 +1629,8 @@
       "part4_pct": 53.45744680851063,
       "part5_pct": 48.50299401197605,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-4B-Instruct_seed42_20251021_203023.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-4B-Instruct_20251229_154121.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-4B-Instruct_seed42_20251021_203023.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-4B-Instruct_20251229_154121.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T20:30:23",
@@ -1661,8 +1661,8 @@
       "part4_pct": 64.09574468085107,
       "part5_pct": 64.97005988023952,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-4B-Thinking_seed42_20251022_052644.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-4B-Thinking_20251022_011210.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-4B-Thinking_seed42_20251022_052644.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-4B-Thinking_20251022_011210.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-22T05:26:44",
@@ -1693,8 +1693,8 @@
       "part4_pct": 55.85106382978723,
       "part5_pct": 51.49700598802395,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-8B-Instruct_seed42_20251021_213804.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-8B-Instruct_20251022_020334.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-8B-Instruct_seed42_20251021_213804.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-8B-Instruct_20251022_020334.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T21:38:04",
@@ -1725,8 +1725,8 @@
       "part4_pct": 71.27659574468085,
       "part5_pct": 71.55688622754491,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/Qwen_Qwen3-VL-8B-Thinking_seed42_20251021_182516.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-8B-Thinking_20251020_113849.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3-VL-8B-Thinking_seed42_20251021_182516.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3-VL-8B-Thinking_20251020_113849.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-21T18:25:16",
@@ -1757,8 +1757,8 @@
       "part4_pct": 61.702127659574465,
       "part5_pct": 55.98802395209581,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/NCSOFT_VARCO-VISION-2.0-14B_seed42_20251020_220121.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/NCSOFT_VARCO-VISION-2.0-14B_20251020_032050.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/NCSOFT_VARCO-VISION-2.0-14B_seed42_20251020_220121.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/NCSOFT_VARCO-VISION-2.0-14B_20251020_032050.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T22:01:21",
@@ -1789,12 +1789,268 @@
       "part4_pct": 38.03191489361702,
       "part5_pct": 33.23353293413174,
       "sources": {
-        "explicit_advanced": "experiments/results/evaluation/explicit_advanced/NCSOFT_VARCO-VISION-2.0-1.7B_seed42_20251020_221959.json",
-        "explicit_reasoning_evaluation": "experiments/results/evaluation/explicit_reasoning_evaluation/NCSOFT_VARCO-VISION-2.0-1.7B_20251020_152857.json"
+        "explicit_advanced": "results/evaluation/explicit_advanced/NCSOFT_VARCO-VISION-2.0-1.7B_seed42_20251020_221959.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/NCSOFT_VARCO-VISION-2.0-1.7B_20251020_152857.json"
       },
       "timestamps": {
         "explicit_advanced": "2025-10-20T22:19:59",
         "explicit_reasoning_evaluation": "2025-10-20T15:28:57"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3.5-9B_Thinking",
+      "display_model_name": "Qwen3.5-9B (Thinking)",
+      "canonical_model_name": "qwen359bthinking",
+      "model_size_b": 9,
+      "model_size_label": "9B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": true,
+      "accuracy_pct": 74.85907553551297,
+      "reasoning_total": 15.687943262411347,
+      "korean_pct": 64.38356164383562,
+      "reasoning_4_20": 15.687943262411347,
+      "geo_pct": 64.38356164383562,
+      "text_pct": 76.12293144208037,
+      "text_only_pct": 76.12293144208037,
+      "multimodal_pct": 48.78048780487805,
+      "part1_pct": 71.58176943699732,
+      "part2_pct": 83.13253012048193,
+      "part3_pct": 78.8300835654596,
+      "part4_pct": 73.93617021276596,
+      "part5_pct": 67.06586826347305,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3.5-9B_Thinking_seed42_20260524_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3.5-9B_Thinking_seed42_20260524_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-05-24T00:00:00",
+        "explicit_reasoning_evaluation": "2026-05-24T00:00:00"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3.5-9B",
+      "display_model_name": "Qwen3.5-9B (Non-Thinking)",
+      "canonical_model_name": "qwen359bnonthinking",
+      "model_size_b": 9,
+      "model_size_label": "9B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": false,
+      "accuracy_pct": 60.42841037204059,
+      "reasoning_total": 14.297872340425531,
+      "korean_pct": 60.273972602739725,
+      "reasoning_4_20": 14.297872340425531,
+      "geo_pct": 60.273972602739725,
+      "text_pct": 61.170212765957444,
+      "text_only_pct": 61.170212765957444,
+      "multimodal_pct": 45.1219512195122,
+      "part1_pct": 59.78552278820375,
+      "part2_pct": 64.45783132530121,
+      "part3_pct": 56.824512534818936,
+      "part4_pct": 63.56382978723404,
+      "part5_pct": 57.48502994011976,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3.5-9B_seed42_20260524_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3.5-9B_seed42_20260524_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-05-24T00:00:00",
+        "explicit_reasoning_evaluation": "2026-05-24T00:00:00"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3.5-27B_Thinking",
+      "display_model_name": "Qwen3.5-27B (Thinking)",
+      "canonical_model_name": "qwen3527bthinking",
+      "model_size_b": 27,
+      "model_size_label": "27B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": true,
+      "accuracy_pct": 82.97632468996618,
+      "reasoning_total": 17.070921985815602,
+      "korean_pct": 72.6027397260274,
+      "reasoning_4_20": 17.070921985815602,
+      "geo_pct": 72.6027397260274,
+      "text_pct": 84.33806146572104,
+      "text_only_pct": 84.33806146572104,
+      "multimodal_pct": 54.87804878048781,
+      "part1_pct": 80.9651474530831,
+      "part2_pct": 87.04819277108435,
+      "part3_pct": 87.46518105849582,
+      "part4_pct": 80.85106382978722,
+      "part5_pct": 78.74251497005989,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3.5-27B_Thinking_seed42_20260524_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3.5-27B_Thinking_seed42_20260524_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-05-24T00:00:00",
+        "explicit_reasoning_evaluation": "2026-05-24T00:00:00"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3.5-27B",
+      "display_model_name": "Qwen3.5-27B (Non-Thinking)",
+      "canonical_model_name": "qwen3527bnonthinking",
+      "model_size_b": 27,
+      "model_size_label": "27B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": false,
+      "accuracy_pct": 73.44983089064262,
+      "reasoning_total": 16.602836879432623,
+      "korean_pct": 67.12328767123287,
+      "reasoning_4_20": 16.602836879432623,
+      "geo_pct": 67.12328767123287,
+      "text_pct": 75.05910165484634,
+      "text_only_pct": 75.05910165484634,
+      "multimodal_pct": 40.243902439024396,
+      "part1_pct": 73.9946380697051,
+      "part2_pct": 77.71084337349397,
+      "part3_pct": 69.63788300835655,
+      "part4_pct": 75.2659574468085,
+      "part5_pct": 70.65868263473054,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3.5-27B_seed42_20260524_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3.5-27B_seed42_20260524_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-05-24T00:00:00",
+        "explicit_reasoning_evaluation": "2026-05-24T00:00:00"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3.5-35B-A3B_Thinking",
+      "display_model_name": "Qwen3.5-35B-A3B (Thinking)",
+      "canonical_model_name": "qwen3535ba3bthinking",
+      "model_size_b": 35,
+      "model_size_label": "35B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": true,
+      "accuracy_pct": 81.79255918827508,
+      "reasoning_total": 16.907801418439718,
+      "korean_pct": 68.4931506849315,
+      "reasoning_4_20": 16.907801418439718,
+      "geo_pct": 68.4931506849315,
+      "text_pct": 83.096926713948,
+      "text_only_pct": 83.096926713948,
+      "multimodal_pct": 54.87804878048781,
+      "part1_pct": 77.21179624664879,
+      "part2_pct": 86.44578313253012,
+      "part3_pct": 84.12256267409471,
+      "part4_pct": 82.97872340425532,
+      "part5_pct": 78.44311377245509,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3.5-35B-A3B_Thinking_seed42_20260524_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3.5-35B-A3B_Thinking_seed42_20260524_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-05-24T00:00:00",
+        "explicit_reasoning_evaluation": "2026-05-24T00:00:00"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3.5-35B-A3B",
+      "display_model_name": "Qwen3.5-35B-A3B (Non-Thinking)",
+      "canonical_model_name": "qwen3535ba3bnonthinking",
+      "model_size_b": 35,
+      "model_size_label": "35B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": false,
+      "accuracy_pct": 69.27846674182638,
+      "reasoning_total": 16.02836879432624,
+      "korean_pct": 68.4931506849315,
+      "reasoning_4_20": 16.02836879432624,
+      "geo_pct": 68.4931506849315,
+      "text_pct": 70.09456264775413,
+      "text_only_pct": 70.09456264775413,
+      "multimodal_pct": 52.4390243902439,
+      "part1_pct": 67.828418230563,
+      "part2_pct": 74.09638554216868,
+      "part3_pct": 64.62395543175488,
+      "part4_pct": 72.3404255319149,
+      "part5_pct": 67.66467065868264,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3.5-35B-A3B_seed42_20260524_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3.5-35B-A3B_seed42_20260524_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-05-24T00:00:00",
+        "explicit_reasoning_evaluation": "2026-05-24T00:00:00"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3.6-35B-A3B_Thinking",
+      "display_model_name": "Qwen3.6-35B-A3B (Thinking)",
+      "canonical_model_name": "qwen3635ba3bthinking",
+      "model_size_b": 35,
+      "model_size_label": "35B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": true,
+      "accuracy_pct": 82.91995490417136,
+      "reasoning_total": 16.397163120567377,
+      "korean_pct": 69.86301369863014,
+      "reasoning_4_20": 16.397163120567377,
+      "geo_pct": 69.86301369863014,
+      "text_pct": 84.75177304964538,
+      "text_only_pct": 84.75177304964538,
+      "multimodal_pct": 45.1219512195122,
+      "part1_pct": 79.35656836461126,
+      "part2_pct": 89.7590361445783,
+      "part3_pct": 85.23676880222841,
+      "part4_pct": 81.38297872340425,
+      "part5_pct": 79.34131736526946,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3.6-35B-A3B_Thinking_seed42_20260524_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3.6-35B-A3B_Thinking_seed42_20260524_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-05-24T00:00:00",
+        "explicit_reasoning_evaluation": "2026-05-24T00:00:00"
+      }
+    },
+    {
+      "model_key": "Qwen/Qwen3.6-35B-A3B",
+      "display_model_name": "Qwen3.6-35B-A3B (Non-Thinking)",
+      "canonical_model_name": "qwen3635ba3bnonthinking",
+      "model_size_b": 35,
+      "model_size_label": "35B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": false,
+      "accuracy_pct": 68.77113866967306,
+      "reasoning_total": 15.652482269503547,
+      "korean_pct": 67.12328767123287,
+      "reasoning_4_20": 15.652482269503547,
+      "geo_pct": 67.12328767123287,
+      "text_pct": 69.91725768321513,
+      "text_only_pct": 69.91725768321513,
+      "multimodal_pct": 45.1219512195122,
+      "part1_pct": 63.806970509383376,
+      "part2_pct": 72.28915662650603,
+      "part3_pct": 65.73816155988858,
+      "part4_pct": 74.7340425531915,
+      "part5_pct": 67.36526946107784,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/Qwen_Qwen3.6-35B-A3B_seed42_20260524_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/Qwen_Qwen3.6-35B-A3B_seed42_20260524_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-05-24T00:00:00",
+        "explicit_reasoning_evaluation": "2026-05-24T00:00:00"
       }
     }
   ]
