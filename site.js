@@ -8,7 +8,7 @@ const typeFilterButtons = document.querySelectorAll(".legend-filter");
 const resultNoteSortButtons = document.querySelectorAll(".results-note-sort");
 const searchInput = document.getElementById("search-input");
 const citationBlock = document.getElementById("citation-block");
-const SITE_ASSET_VERSION = "20260524-v111";
+const SITE_ASSET_VERSION = "20260601-v111";
 
 const plotMetrics = [
   {
@@ -166,6 +166,10 @@ function latestTimestamp(rows) {
 function formatDate(stamp) {
   if (!stamp) {
     return "n/a";
+  }
+  const isoDateMatch = /^(\d{4}-\d{2}-\d{2})/.exec(stamp);
+  if (isoDateMatch) {
+    return isoDateMatch[1];
   }
   const date = new Date(stamp);
   if (Number.isNaN(date.getTime())) {

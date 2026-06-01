@@ -3,7 +3,7 @@
     "accuracy_benchmark": "explicit_advanced",
     "reasoning_benchmark": "explicit_reasoning_evaluation"
   },
-  "count": 64,
+  "count": 66,
   "rows": [
     {
       "model_key": "skt/A.X-4.0",
@@ -2051,6 +2051,70 @@
       "timestamps": {
         "explicit_advanced": "2026-05-24T00:00:00",
         "explicit_reasoning_evaluation": "2026-05-24T00:00:00"
+      }
+    },
+    {
+      "model_key": "google/gemma-4-31B-it_Thinking",
+      "display_model_name": "gemma-4-31B-it (Thinking)",
+      "canonical_model_name": "gemma431bitthinking",
+      "model_size_b": 31,
+      "model_size_label": "31B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": true,
+      "accuracy_pct": 86.52762119503946,
+      "reasoning_total": 17.53191489361702,
+      "korean_pct": 82.1917808219178,
+      "reasoning_4_20": 17.53191489361702,
+      "geo_pct": 82.1917808219178,
+      "text_pct": 87.47044917257683,
+      "text_only_pct": 87.47044917257683,
+      "multimodal_pct": 67.07317073170732,
+      "part1_pct": 80.9651474530831,
+      "part2_pct": 92.7710843373494,
+      "part3_pct": 89.97214484679665,
+      "part4_pct": 86.43617021276596,
+      "part5_pct": 82.93413173652695,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/google_gemma-4-31B-it_Thinking_seed42_20260601_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/google_gemma-4-31B-it_Thinking_seed42_20260601_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-06-01T00:00:00",
+        "explicit_reasoning_evaluation": "2026-06-01T00:00:00"
+      }
+    },
+    {
+      "model_key": "google/gemma-4-31B-it",
+      "display_model_name": "gemma-4-31B-it (Non-Thinking)",
+      "canonical_model_name": "gemma431bit",
+      "model_size_b": 31,
+      "model_size_label": "31B",
+      "is_proprietary_model": false,
+      "is_korean_model": false,
+      "is_vision_model": true,
+      "is_reasoning_model": false,
+      "accuracy_pct": 75.70462232243517,
+      "reasoning_total": 16.921985815602838,
+      "korean_pct": 71.23287671232876,
+      "reasoning_4_20": 16.921985815602838,
+      "geo_pct": 71.23287671232876,
+      "text_pct": 77.00945626477541,
+      "text_only_pct": 77.00945626477541,
+      "multimodal_pct": 48.78048780487805,
+      "part1_pct": 71.31367292225201,
+      "part2_pct": 82.53012048192771,
+      "part3_pct": 72.98050139275766,
+      "part4_pct": 77.92553191489363,
+      "part5_pct": 74.25149700598801,
+      "sources": {
+        "explicit_advanced": "results/evaluation/explicit_advanced/google_gemma-4-31B-it_seed42_20260601_000000.json",
+        "explicit_reasoning_evaluation": "results/evaluation/explicit_reasoning_evaluation/google_gemma-4-31B-it_seed42_20260601_000000.json"
+      },
+      "timestamps": {
+        "explicit_advanced": "2026-06-01T00:00:00",
+        "explicit_reasoning_evaluation": "2026-06-01T00:00:00"
       }
     }
   ]
