@@ -21,13 +21,13 @@ const plotMetrics = [
     tickValues: [0, 20, 40, 60, 80, 100],
   },
   {
-    key: "reasoning_total",
+    key: "reasoning_pct",
     tabLabel: "Reasoning",
     axisLabel: "Reasoning Score",
     valueLabel: "Reasoning score",
-    digits: 2,
-    domain: [0, 20],
-    tickValues: [0, 5, 10, 15, 20],
+    digits: 1,
+    domain: [0, 100],
+    tickValues: [0, 20, 40, 60, 80, 100],
   },
   {
     key: "korean_pct",
@@ -105,7 +105,7 @@ const plotMetrics = [
 
 const metricColumns = [
   ["accuracy_pct", 1],
-  ["reasoning_total", 2],
+  ["reasoning_pct", 1],
   ["korean_pct", 1],
   ["text_pct", 1],
   ["multimodal_pct", 1],
@@ -389,7 +389,7 @@ function formatPlotValue(value, metric) {
   if (formatted === "-") {
     return formatted;
   }
-  return metric.key === "reasoning_total" ? formatted : `${formatted}%`;
+  return `${formatted}%`;
 }
 
 function formatSizeTick(value) {
@@ -615,13 +615,12 @@ function renderPlot(rows) {
         max: yDomainMax,
         interval: metric.tickValues.length > 1 ? metric.tickValues[1] - metric.tickValues[0] : null,
         axisLabel: {
-          formatter: (value) => (metric.key === "reasoning_total" ? value.toFixed(0) : `${value.toFixed(0)}%`),
+          formatter: (value) => `${value.toFixed(0)}%`,
         },
         axisPointer: {
           snap: true,
           label: {
-            formatter: (params) =>
-              metric.key === "reasoning_total" ? params.value.toFixed(2) : `${params.value.toFixed(1)}%`,
+            formatter: (params) => `${params.value.toFixed(1)}%`,
           },
         },
       },
